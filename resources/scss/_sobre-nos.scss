@@ -1,0 +1,12 @@
+.sobre-nos-bars{
+    padding-left: 9%;
+}
+
+.left-topic-right-text{
+    .coluna-1{
+        @media (max-width: 425px) {
+            text-align: center;
+            margin-bottom: 16px;
+        }
+    }
+}

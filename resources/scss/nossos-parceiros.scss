@@ -1,0 +1,21 @@
+.half-into-bottom-image{
+    transform: translateY(50%);
+    margin-top: -20%;
+}
+
+
+.nossos-clientes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    *:has(img){
+        img{
+            max-height: 92px;
+            max-width: 258px;
+            margin: 60px;
+        }
+    }
+}
