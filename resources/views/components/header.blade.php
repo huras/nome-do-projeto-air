@@ -14,15 +14,15 @@
         </a>
 
         <div class="d-flex flex-row justify-content-md-center header-buttons mobile-hidden">
-            <a href="#" class="btn btn-light" aria-label="Toggle navigation">
+            <a href="/solucoes#plataforma-airsearch" class="btn btn-light" aria-label="Toggle navigation">
                 Plataforma AirSearch
             </a>
 
-            <a href="#" class="btn btn-light" aria-label="Toggle navigation">
+            <a href="/solucoes#campanhas-customizadas" class="btn btn-light" aria-label="Toggle navigation">
                 Campanhas Customizadas
             </a>
 
-            <a href="#" class="btn btn-light" aria-label="Toggle navigation">
+            <a href="/solucoes#insights" class="btn btn-light" aria-label="Toggle navigation">
                 Insights
             </a>
 

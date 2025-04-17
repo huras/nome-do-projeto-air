@@ -180,7 +180,7 @@
                         </div>
 
                         <div class='mb-5'>
-                            <button type="button" class="btn btn-light">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
                         </div>
@@ -204,7 +204,7 @@
                         </div>
 
                         <div class='my-5'>
-                            <button type="button" class="btn btn-light">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
                         </div>
@@ -230,9 +230,9 @@
                         </div>
 
                         <div class='mb-5' style="margin-top: 69px">
-                            <button type="button" class="btn btn-light">
+                            <a href="/solucoes#ai" type="button" class="btn btn-light">
                                 <span class="fw-600">Descubra o poder da IA</span>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                         </div>
 
                         <div class='my-5'>
-                            <button type="button" class="btn btn-light">
+                            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
                         </div>

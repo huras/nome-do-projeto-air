@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <div class="row ">
                 <div class="col-12">
-                    <img src="{{ asset('images/cases/c6bank.png') }}" class="img-fluid hero-logo mb-3">
+                    <img src="{{ asset('images/cases/c6bank-1.png') }}" class="img-fluid hero-logo mb-3">
                 </div>
             </div>
         </div>

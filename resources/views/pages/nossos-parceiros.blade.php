@@ -46,9 +46,9 @@
                 <div class="col-10 mx-auto">
                     <h3 class="fw-500 mb-0 text-black">Descubra como a Air transforma</h3>
                     <h3 class="fw-500 mb-5 text-black">conexões em impacto real.</h3>
-                    <a href="{{ route('my-air') }}" class="btn btn-light fw-semibold">
+                    <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
                         Fale com a gente
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                         <b> customizadas </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/videos/indian-girl-video.png') }}" class="img-fluid">
+                    <img src="{{ asset('images/suit-man-video.png') }}" class="img-fluid">
                 </div>
 
                 <div class="col-3 text-muted-b0 mt-215">
@@ -91,7 +91,7 @@
                         <b> Insights </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/videos/indian-girl-video.png') }}" class="img-fluid">
+                    <img src="{{ asset('images/woman-video-1.png') }}" class="img-fluid">
                 </div>
 
                 <div class="col-3 text-muted-b0 mt-0">
@@ -102,7 +102,7 @@
                         <b> Creator </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/videos/indian-girl-video.png') }}" class="img-fluid">
+                    <img src="{{ asset('images/woman-40s-video.png') }}" class="img-fluid">
                 </div>
             </div>
         </div>

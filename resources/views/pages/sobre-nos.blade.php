@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="hero-section text-black bg-white">
-        <div class="container-fluid pt-5">
+        <div class="container-fluid pt-105">
             <div class="row area-title-wrapper mt-5">
                 <p class="text-muted area-title-label">Sobre nós</p>
             </div>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="fs-24 fw-700 line-height-1 mt-24">Como a geração Z está influenciando as estratégias de marketing em 2025</div>
                     <div class="mt-16">
-                        <a class="article-link" href="#" >Ir para o artigo ></a>
+                        <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
                     </div>
                 </div>
                 <div class="col">
@@ -222,7 +222,7 @@
                     </div>
                     <div class="fs-24 fw-700 line-height-1 mt-24">Como os dados estão moldando as decisões de marketing</div>
                     <div class="mt-16">
-                        <a class="article-link" href="#" >Ir para o artigo ></a>
+                        <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
                     </div>
                 </div>
                 <div class="col">
@@ -231,7 +231,7 @@
                     </div>
                     <div class="fs-24 fw-700 line-height-1 mt-24">O futuro das redes sociais: quais plataformas ganharão destaque em 2025</div>
                     <div class="mt-16">
-                        <a class="article-link" href="#" >Ir para o artigo ></a>
+                        <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@
         <div class="container">
             <div class="row text-start w-100">
                 <div class="w-100 d-flex justify-content-start">
-                    <a class="btn btn-dark text-white mt-5" href="#">Ir para o blog</a>
+                    <a class="btn btn-dark text-white mt-5" href="https://airfluencers.com/">Ir para o blog</a>
                 </div>
             </div>
         </div>
@@ -274,7 +274,7 @@
                     </div>
                     <div class="fs-24 fw-700 line-height-1 mt-24">Link 1 para matérias em veículos de mídia, imprensa, menções etc.</div>
                     <div class="mt-16">
-                        <a class="article-link" href="#" >Ir para a matéria ></a>
+                        <a class="article-link" href="https://airfluencers.com/" >Ir para a matéria ></a>
                     </div>
                 </div>
 
@@ -284,7 +284,7 @@
                     </div>
                     <div class="fs-24 fw-700 line-height-1 mt-24">Link 2 para matérias em veículos de mídia, imprensa, menções etc.</div>
                     <div class="mt-16">
-                        <a class="article-link" href="#" >Ir para a matéria ></a>
+                        <a class="article-link" href="https://airfluencers.com/" >Ir para a matéria ></a>
                     </div>
                 </div>
             </div>

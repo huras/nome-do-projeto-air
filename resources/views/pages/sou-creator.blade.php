@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="text-white bg-black">
-        <div class="container-fluid pt-5">
+        <div class="container-fluid pt-105">
             <div class="row area-title-wrapper mt-5">
                 <p class="text-muted-2 area-title-label">Creator</p>
             </div>

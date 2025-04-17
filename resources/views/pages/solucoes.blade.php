@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="hero-section text-black bg-white">
-        <div class="container-fluid pt-5">
+        <div class="container-fluid pt-105">
             <div class="row area-title-wrapper mt-5">
                 <p class="text-muted area-title-label">Soluções</p>
             </div>
@@ -57,10 +57,10 @@
     </section>
 
     {{-- Plataforma --}}
-    <section class="py-5 mt-5 text-white bg-black">
+    <section class="py-5 mt-5 text-white bg-black" id='plataforma-airsearch'>
         <div class="container">
             <!-- Bloco de introdução + comparação -->
-            <div class="row align-items-center mb-5 mt-160">
+            <div class="row align-items-center mb-5 mt-160" >
 
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-center home-hero-wrapper">
                     <h1 class="fw-500 home-hero-text text-rainbow">Plataforma</h1>
@@ -102,7 +102,7 @@
             button-link="{{ route('contato') }}"
         />
 
-        <div class="container">
+        <div class="container" id='campanhas-customizadas'>
             <!-- Bloco de introdução + comparação -->
             <div class="row align-items-center mb-5 mt-160">
 
@@ -163,13 +163,21 @@
             </div>
         </div>
 
-        <x-rainbow-block-text
-            title="Monitore e celebre os dados da sua campanha!"
-            button-text="Fale com a gente"
-            button-link="{{ route('contato') }}"
-        />
+        <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+            <div class="container-fluid text-start">
+                <div class="row">
+                    <div class="col-10 mx-auto">
+                        <h3 class="fw-500 mb-5 text-black">Monitore e celebre os dados da sua campanha!</h3>
+                        <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
+                            Fale com a gente
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="container">
+
+        <div class="container" id='insights'>
             <!-- Bloco de introdução + comparação -->
             <div class="row align-items-center mb-5 mt-160">
 
@@ -236,14 +244,24 @@
     </section>
 
     {{-- Campanhas customizadas --}}
-    <section class="py-5 bg-black text-white">
-        <x-rainbow-block-text
-            title="Transforme dados em insights estratégicos!"
-            button-text="Fale com a gente"
-            button-link="{{ route('contato') }}"
-        />
+    <section class="py-5 bg-black text-white" >
 
-        <div class="container">
+        <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+            <div class="container-fluid text-start">
+                <div class="row">
+                    <div class="col-10 mx-auto">
+                        <h3 class="fw-500 mb-5 text-black">
+                            Transforme dados em insights estratégicos!
+                        </h3>
+                        <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
+                            Fale com a gente
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" id="ai">
             <!-- Bloco de introdução + comparação -->
             <div class="row align-items-center mb-5 mt-160">
 
@@ -314,11 +332,20 @@
             </div>
         </div>
 
-        <x-rainbow-block-text
-            title="Descubra o poder da IA!"
-            button-text="Clique e conheça"
-            button-link="{{ route('contato') }}"
-        />
+        <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+            <div class="container-fluid text-start">
+                <div class="row">
+                    <div class="col-10 mx-auto">
+                        <h3 class="fw-500 mb-5 text-black">
+                            Descubra o poder da IA!
+                        </h3>
+                        <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
+                            Clique e conheça
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class='mt-160'></div>
 
