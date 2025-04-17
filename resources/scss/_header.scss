@@ -3,6 +3,11 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin: 16px 0px;
+
+    @media (max-width: 768px) {
+        flex-direction: column!important;
+    }
 }
 
 .header-buttons button{
@@ -21,4 +26,33 @@
     padding-right: 24px;
     padding-bottom: 10px;
     padding-left: 24px;
+}
+
+.header-container {
+    // @media (max-width: 768px) {
+    //     flex-direction: column;
+    //     height: auto;
+    //     padding: 10px;
+    // }
+}
+
+.home-hero-metrics{
+    @media (max-width: 768px) {
+        .col {
+            width: 100%!important;
+            flex: unset;
+        }
+    }
+}
+
+// ------------------
+
+nav {
+    &.bg-dark{
+        background-color: rgba(0, 0, 0, 0.6)!important;
+    }
+
+    &.bg-white{
+        background-color: #ffffffb8 !important;
+    }
 }

@@ -8,6 +8,10 @@
 .home-hero-text, .home-hero-text-secondary{
     text-align: start;
     width: 100%;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 }
 
 .home-hero-wrapper, .home-hero-img-wrapper {
@@ -41,6 +45,13 @@
         font-weight: 300;
         font-size: clamp(7rem, 5vw, 98px);
     }
+
+    @media (max-width: 768px) {
+        top: -10%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
 }
 
 
@@ -59,7 +70,7 @@
 // -------------------
 
 .metric-title {
-    font-size: 4rem;
+    font-size: 96px;
     font-weight: 700;
   }
 

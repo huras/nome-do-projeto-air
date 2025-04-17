@@ -1,60 +1,87 @@
-<footer class="footer-custom @yield('footer-bg-theme', 'bg-black') @yield('footer-text-theme', 'text-white') py-5 mt-166">
+<footer class="footer-custom @yield('footer-bg-theme', 'bg-white') @yield('footer-text-theme', 'text-black') pt-5 pt-166">
     <div class="container-fluid px-4 pe-5">
-        <h1 class="display-4 my-5 py-5 fale-conosco">Fale conosco</h1>
+        <h1 class="display-4 my-5 py-5 fale-conosco ">Contato</h1>
         <div class='my-5 py-5'></div>
-        <div class="row pt-5 my-5">
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline "><a href="#" class="@yield('footer-text-theme', 'text-white') fw-normal">Central de Apoio</a>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline">
+                    <span
+                        class="@yield('footer-text-theme', 'text-black') fw-normal"
+                    >
+                        Central de Apoio
+                    </span>
                 </p>
-                <p class="pe-5 fs-20 small @yield('footer-text-theme', 'text-white')">
+                <p class="pe-4 fs-20 small @yield('footer-text-theme', 'text-black')">
                     Tem dúvidas técnicas, estratégicas ou financeiras? Converse com nosso time de especialistas e
                     explore nossa
-                    <a href="#" class="@yield('footer-text-theme', 'text-white') text-decoration-underline">Central de Apoio aqui!</a>
+                    <span
+                        href="#"
+                        class="@yield('footer-text-theme', 'text-black') text-decoration-underline cursor-pointer"
+                        data-bs-toggle="modal"
+                        data-bs-target="#supportCentralInicialModal"
+                    >
+                        Central de Apoio aqui!
+                    </span>
                 </p>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal">Novos clientes</p>
-                <p class="pe-5 fs-20 small @yield('footer-text-theme', 'text-white')">Clientes interessados em trabalhar com a gente.</p>
-                <p class="pe-5 fs-20 text-muted small">clientes@air.com.br</p>
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal">Novos clientes</p>
+                <p class="pe-4 fs-20 small @yield('footer-text-theme', 'text-black')">Clientes interessados em trabalhar com a gente.</p>
+                <p class="pe-4 fs-20 text-muted-59-if-not-bg-white small">clientes@air.com.br</p>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-white')">Creators</p>
-                <p class="pe-5 fs-20 small @yield('footer-text-theme', 'text-white')">Ações com influenciadores, mídia kit, portfólio, parcerias.</p>
-                <p class="pe-5 fs-20 text-muted small">creators@air.com.br</p>
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Creators</p>
+                <p class="pe-4 fs-20 small @yield('footer-text-theme', 'text-black')">Ações com influenciadores, mídia kit, portfólio, parcerias.</p>
+                <p class="pe-4 fs-20 text-muted-59-if-not-bg-white small">creators@air.com.br</p>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-white')">RH</p>
-                <p class="pe-5 fs-20 small @yield('footer-text-theme', 'text-white')">
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Conteúdos para você</p>
+                <ul class="list-unstyled fs-20 text-muted-59-if-not-bg-white small mb-0 ">
+                    <li class='line-height-1'> <a href="#" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Pesquisas </a> </li>
+                    <li class='line-height-1'> <a href="#" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Estudos</a></li>
+                    <li class='line-height-1'> <a href="#" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Podcasts</a></li>
+                    <li class='line-height-1'> <a href="#" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Videocasts</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">RH</p>
+                <p class="pe-4 fs-20 small @yield('footer-text-theme', 'text-black')">
                 <div>Para nos enviar seu perfil ou currículo, </div>
                 <div>inscreva-se em nosso banco de talentos.</div>
                 </p>
-                <p class="pe-5 fs-20 text-muted small">bancodetalentos@air.com.br</p>
+                <p class="pe-4 fs-20 text-muted-59-if-not-bg-white small">bancodetalentos@air.com.br</p>
             </div>
-        </div>
-        <div class="row pt-4 my-5">
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-white')">Imprensa</p>
-                <p class="pe-5 fs-20 small @yield('footer-text-theme', 'text-white')">Eventos, divulgações e notícias.</p>
-                <p class="pe-5 fs-20 text-muted small">imprensa@air.com.br</p>
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-white')">Mídia</p>
-                <p class="pe-5 fs-20 small @yield('footer-text-theme', 'text-white')">Veículos interessados em fornecer serviços de mídia para nossos
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Mídia</p>
+                <p class="pe-4 fs-20 small @yield('footer-text-theme', 'text-black')">Veículos interessados em fornecer serviços de mídia para nossos
                     clientes.</p>
-                <p class="pe-5 fs-20 text-muted small">midia@air.com.br</p>
+                <p class="pe-4 fs-20 text-muted-59-if-not-bg-white small">midia@air.com.br</p>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-white')">Redes sociais</p>
-                <ul class="list-unstyled text-muted small mb-0 ">
-                    <li>Instagram</li>
-                    <li>TikTok</li>
-                    <li>Linkedin</li>
-                    <li>Youtube</li>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Imprensa</p>
+                <p class="pe-4 fs-20 small @yield('footer-text-theme', 'text-black')">Eventos, divulgações e notícias.</p>
+                <p class="pe-4 fs-20 text-muted-59-if-not-bg-white small">imprensa@air.com.br</p>
+            </div>
+
+
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Redes sociais</p>
+                <ul class="list-unstyled fs-20 text-muted-59-if-not-bg-white small mb-0 ">
+                    <li class='line-height-1'> <a href="https://www.instagram.com/air.com.vc/" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Instagram </a> </li>
+                    <li class='line-height-1'> <a href="https://www.tiktok.com/@air.com.vc" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> TikTok</a></li>
+                    <li class='line-height-1'> <a href="https://www.linkedin.com/company/air-com-vc/?viewAsMember=true" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Linkedin</a></li>
+                    <li class='line-height-1'> <a href="https://www.youtube.com/@aircomvc" target="_blank" class='text-decoration-none @yield('footer-text-theme', 'text-black') text-muted-59-if-not-bg-white'> Youtube</a></li>
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                <p class="pe-5 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-white')">Localização</p>
-                <p class="pe-5 fs-20 text-muted small mb-0">
+
+            <div class="col-sm-12 col-md-6 col-lg-3 py-5">
+                <p class="pe-4 fs-20 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Endereço</p>
+                <p class="pe-4 fs-20 text-muted-59-if-not-bg-white small mb-0">
                     Avenida Eusébio Matoso, 690<br>
                     São Paulo, Brasil<br>
                     05423-000<br>
@@ -63,26 +90,24 @@
             </div>
         </div>
 
-        <div class="row pt-4 align-items-center text-center text-md-start">
-            <div class="col-md">
-                <p class="pe-5 fs-20 small mb-0">&copy; Todos os direitos reservados. Air&reg; 2025.</p>
+        <div class="row  align-items-center text-center mt-90">
+            <div class="col">
+                <p class="pe-4 fs-20 small mb-0">&copy; Todos os direitos reservados. Air&reg; 2025.</p>
             </div>
-            <div class="col-md text-md-center">
-                <a href="#" class="text-white small me-3">Política de Privacidade</a>
-                <a href="#" class="text-white small">Termos de Uso</a>
+            <div class="col text-md-center">
+                <a href="{{ route('privacy-policy') }}" class="@yield('footer-text-theme', 'text-black') small me-3">Política de Privacidade</a>
+                <a href="{{ route('privacy-policy') }}" class="@yield('footer-text-theme', 'text-black') small">Termos de Uso</a>
             </div>
-            <div class="col-md text-md-end">
-                <svg width="87" height="51" viewBox="0 0 87 51" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M33.3645 12.9552V17.4789C29.8379 14.0193 25.0046 11.8809 19.6793 11.8809C8.90948 11.8809 0.147461 20.6226 0.147461 31.3676C0.147461 42.1126 8.90948 50.8529 19.6793 50.8529C25.0046 50.8529 29.8379 48.7144 33.3645 45.2548V49.6786H41.138V12.9552H33.3645ZM19.6793 43.5044C12.9708 43.5044 7.51298 38.0591 7.51298 31.3676C7.51298 24.6761 12.9708 19.2308 19.6793 19.2308C26.3878 19.2308 31.8442 24.6761 31.8442 31.3676C31.8442 38.0591 26.3864 43.5044 19.6793 43.5044Z"
-                        fill="white" />
-                    <path d="M58.0875 12.9551H50.314V49.6784H58.0875V12.9551Z" fill="white" />
-                    <path d="M58.0875 0.146973H50.314V8.20239H58.0875V0.146973Z" fill="white" />
-                    <path
-                        d="M75.0368 16.0553V12.9557p7.2632V49.679H75.0368V31.3666C75.0368 24.7265 80.197 19.3254 86.8525 19.3254V12.0342C82.4082 12.0342 78.31 13.5347 75.0368 16.0553Z"
-                        fill="white" />
-                </svg>
+            <div class="col text-md-end">
+                <a href="/">
+                    <svg width="87" height="51" viewBox="0 0 87 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.3299 12.8823V17.4323C29.7913 13.9526 24.9417 11.8018 19.5983 11.8018C8.79181 11.8018 0 20.5942 0 31.4015C0 42.2088 8.79181 50.9998 19.5983 50.9998C24.9417 50.9998 29.7913 48.849 33.3299 45.3693V49.8187H41.1299V12.8823H33.3299ZM19.5983 43.6087C12.867 43.6087 7.39056 38.1319 7.39056 31.4015C7.39056 24.6712 12.867 19.1944 19.5983 19.1944C26.3296 19.1944 31.8045 24.6712 31.8045 31.4015C31.8045 38.1319 26.3281 43.6087 19.5983 43.6087Z" fill="@yield('footer-svg-fill', 'black')"/>
+                        <path d="M58.1369 12.8823H50.3369V49.8187H58.1369V12.8823Z" fill="@yield('footer-svg-fill', 'black')"/>
+                        <path d="M58.1369 0H50.3369V8.10215H58.1369V0Z" fill="@yield('footer-svg-fill', 'black')"/>
+                        <path d="M75.144 16.0005V12.8829H67.344V49.8193H75.144V31.4006C75.144 24.722 80.3218 19.2895 86.9999 19.2895V11.9561C82.5405 11.9561 78.4284 13.4653 75.144 16.0005Z" fill="@yield('footer-svg-fill', 'black')"/>
+                    </svg>
+                </a>
+
             </div>
         </div>
     </div>

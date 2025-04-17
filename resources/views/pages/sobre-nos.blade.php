@@ -54,7 +54,7 @@
             </div>
 
             <!-- Texto Institucional -->
-            <div class="row py-5 d-flex justify-content-center align-items-center left-topic-right-text">
+            <div class="row pt-122 d-flex justify-content-center align-items-center left-topic-right-text">
                 <div class="coluna-1 col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
                     <h3> Criatividade <br> com propósito </h3>
                 </div>
@@ -65,7 +65,7 @@
             </div>
 
             <!-- Texto Institucional -->
-            <div class="row py-5 d-flex justify-content-center align-items-center left-topic-right-text">
+            <div class="row pt-122 d-flex justify-content-center align-items-center left-topic-right-text">
                 <div class="coluna-1 col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
                     <h3> Colaboração <br> que constrói </h3>
                 </div>
@@ -76,7 +76,7 @@
             </div>
 
             <!-- Texto Institucional -->
-            <div class="row py-5 d-flex justify-content-center align-items-center left-topic-right-text">
+            <div class="row pt-122 d-flex justify-content-center align-items-center left-topic-right-text">
                 <div class="coluna-1 col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
                     <h3> Ousadia <br> com precisão </h3>
                 </div>
@@ -87,7 +87,7 @@
             </div>
 
             <!-- Texto Institucional -->
-            <div class="row py-5 d-flex justify-content-center align-items-center left-topic-right-text">
+            <div class="row pt-122 d-flex justify-content-center align-items-center left-topic-right-text">
                 <div class="coluna-1 col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
                     <h3> Encantamento <br> em cada entrega </h3>
                 </div>
@@ -98,7 +98,7 @@
             </div>
 
             <!-- Texto Institucional -->
-            <div class="row py-5 d-flex justify-content-center align-items-center left-topic-right-text">
+            <div class="row pt-122 d-flex justify-content-center align-items-center left-topic-right-text">
                 <div class="coluna-1 col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto">
                     <h3> Comprometimento <br> com resultados </h3>
                 </div>
@@ -118,114 +118,87 @@
         </div>
         <div class="container ">
             <div class="row">
-                <div class="col-10 me-auto pe-5">
-                    <h5 class="fw-300"> Prepare-se para o futuro da influência: somos a equipe que redefine o mercado.
-                        Criativos, criadores e cientistas de dados, impulsionamos o crescimento acelerado de grandes marcas.
+                <div class="col-12 me-auto pe-5">
+                    <h5 class="fw-300"> Resultados extraordinários sem estresse! Deixe a complexidade <br>com a gente! 🚀
                     </h5>
-                    <p class="text-muted fw-300 mt-3"> Deixe a complexidade conosco: nossa equipe de especialistas em mídia
-                        e marketing digital cuida de cada etapa do seu projeto de Marketing de Influência. Desde a definição
-                        de KPIs e narrativas até a execução e relatórios de campanha, garantimos que sua marca alcance
-                        resultados extraordinários com total tranquilidade. </p>
+                    <p class="text-muted fw-300 mt-5"> Pare de se preocupar! <br>
+                        Nossa equipe de especialistas em mídia e marketing digital gerencia tudo para você! Desde o início <br>ao fim, cuidamos de cada detalhe: KPIs, narrativas, execução e relatórios de campanha!
+                    </p>
+                    <p class="text-black fw-700 mt-2">
+                        Sua marca merece o extraordinário com total tranquilidade! </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-7 text-black bg-white">
-        <div class="container-fluid">
+    <section class="pb-7 pt-5 text-black bg-white">
+        <div class="container">
             <div class="row text-center mb-4">
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/equipe/rodrigo-soriano.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Rodrigo Soriano</div>
                     <p class="text-muted mt-16">CEO & Founder</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/equipe/fred.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Fred Muller</div>
                     <p class="text-muted mt-16">CRO</p>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
-                    </div>
-                    <div class="fs-24 fw-400 mt-24">Guilherme Ferraz</div>
-                    <p class="text-muted mt-16">CTO & PM</p>
-                </div>
-                <div class="col">
-                    <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/equipe/cassia-pascheto.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Cassia Pascheto</div>
                     <p class="text-muted mt-16">Comercial & CS</p>
                 </div>
-                <div class="col">
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/equipe/cristiane-stuart.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Cristiane Stuart</div>
                     <p class="text-muted mt-16">Marketing</p>
                 </div>
-            </div>
-
-            <div class="row text-center mt-56">
-                <div class="col">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/equipe/guilherme.png') }}" class="img-fluid">
+                    </div>
+                    <div class="fs-24 fw-400 mt-24">Guilherme Ferraz</div>
+                    <p class="text-muted mt-16">CTO & PM</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                    <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
+                        <img src="{{ asset('images/equipe/viviane.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Viviane Santos</div>
                     <p class="text-muted mt-16">Planejamento</p>
-                </div>
-                <div class="col">
-                    <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
-                    </div>
-                    <div class="fs-24 fw-400 mt-24">Noemi Figueiredo</div>
-                    <p class="text-muted mt-16">Financeiro</p>
-                </div>
-                <div class="col">
-                    <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
-                    </div>
-                    <div class="fs-24 fw-400 mt-24">Wanda Rosa</div>
-                    <p class="text-muted mt-16">Administrativo</p>
-                </div>
-                <div class="col">
-                    <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
-                    </div>
-                    <div class="fs-24 fw-400 mt-24">Alexsandra Celeste</div>
-                    <p class="text-muted mt-16">Insights</p>
-                </div>
-                <div class="col">
-                    <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/foto-funcionario.png') }}" class="img-fluid">
-                    </div>
-                    <div class="fs-24 fw-400 mt-24">Gabriel Paparelli</div>
-                    <p class="text-muted mt-16">RH & BP</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="hero-section text-black bg-white">
+    <section class="hero-section text-black bg-white mt-56">
         <div class="container-fluid">
             <div class="row area-title-wrapper">
                 <p class="text-muted area-title-label">Blog</p>
             </div>
         </div>
         <div class="container">
-            <div class="row w-100">
-                <div class="col-lg-11 col-md-12 d-flex flex-column justify-content-center text-start">
-                    <h1 class="fw-300"> Air Blog: Seu HUB de Marketing de Influência. </h1>
+            <div class="row w-100 px-0">
+                <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-start">
+                    <h1 class="fw-300 fs-120"> Air Blog: Sua biblioteca de Marketing de Influência. </h1>
                 </div>
             </div>
             <div class="row w-100">
-                <div class="col-lg-11 col-md-11 d-flex flex-column justify-content-center text-start">
-                    <p class="text-muted mt-16 fw-300">Mantenha-se atualizado e descubra novas oportunidades, tendências e estratégias para impulsionar marcas e criadores. Com a expertise da AIR, transformamos dados e experiências em conhecimento aplicável.</p>
+                <div class="col-lg-11 col-md-11 d-flex flex-column justify-content-center text-start mt-4">
+                    <p class="text-muted-4b mt-16 fw-300 line-height-1">
+                        <b class='fw-700'> Creators e Marcas, desvendem os segredos do sucesso agora! </b><br>
+                        Insights, tendências e tudo que você precisa saber sobre o universo da influência! Não fique desatualizado! O futuro do Marketing de Influência passa por aqui!
+                    </p>
                 </div>
             </div>
         </div>
@@ -265,7 +238,7 @@
         </div>
     </section>
 
-    <section class="text-black bg-white mt-90">
+    <section class="text-black bg-white mt-56 mb-56">
         <div class="container">
             <div class="row text-start w-100">
                 <div class="w-100 d-flex justify-content-start">
@@ -275,7 +248,7 @@
         </div>
     </section>
 
-    <section class="hero-section text-black bg-white mt-166 mb-156">
+    <section class="hero-section text-black bg-white mt-215 mb-156">
         <div class="container-fluid">
             <div class="row area-title-wrapper">
                 <p class="text-muted area-title-label">Imprensa</p>
@@ -287,10 +260,10 @@
                     <h1 class="fw-300"> Air na Mídia: </h1>
                 </div>
                 <div class="mt-80 col-12 d-flex flex-column justify-content-center text-start">
-                    <h5 class="fw-300"> Liderando a transformação do Marketing de Influência. </h5>
+                    <h5 class="fw-300"> Junte-se à AIR e Lidere o Futuro! 🚀 </h5>
                 </div>
                 <div class="mt-24 col-lg-11 col-md-11 d-flex flex-column justify-content-center text-start">
-                    <p class="text-muted mt-16 fw-300">A AIR nasceu para transformar a relação entre marcas e pessoas, combinando empatia, criatividade e tecnologia para gerar impacto real. Nossa visão pioneira e nossa inquietude nos tornaram referência em inovação, dados e estratégia no marketing de influência, com destaque nos principais veículos de comunicação. Confira as reportagens, artigos e menções que comprovam nossa liderança e como construímos conexões autênticas que respiram influência.</p>
+                    <p class="text-muted mt-16 fw-300">Nascemos para transformar a relação entre marcas e pessoas! Combinamos empatia, criatividade e tecnologia para gerar impacto real e conexões autênticas. A Air não segue tendências, nós as criamos! Nossa visão pioneira e inquietude nos tornaram referência em inovação, dados e estratégia no marketing de influência. Não acredite em nós, veja! Confira as reportagens, artigos e menções que comprovam nossa liderança e como construímos conexões que respiram influência!</p>
                 </div>
             </div>
 
