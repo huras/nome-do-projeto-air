@@ -115,9 +115,9 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row align-items-center mb-5 plataforma column-reverse-mobile">
+            <div class="row align-items-start mb-5 plataforma column-reverse-mobile">
                 <!-- Texto Esquerda -->
-                <div class="col-12 col-md-6 mt-3 mb-5 mb-md-0 fw-300 align-items-start">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start">
                     <h5 class="fw-300 mb-5">Esqueça as limitações. Diga adeus aos intermediários. Com a Air Search, a
                         liberdade é total:</h5>
                     <ul class="list-unstyled text-muted mb-0 d-flex flex-column align-items-start justify-content-start">
@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 ps-0">
-                    <img src="{{ asset('images/notebook-2.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                    <img src="{{ asset('images/slider-images/4473f44fa0aae8766915469bbc2263d8.jpeg') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
                 </div>
             </div>
         </div>
@@ -181,13 +181,20 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row align-items-center mb-5 plataforma column-reverse-mobile">
+            <div class="row align-items-start mb-5 plataforma column-reverse-mobile">
+
                 <div class="col-12 col-md-6 ps-0">
-                    <img src="{{ asset('images/pexels-kindelmedia-7688360.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                    <div id="heroCarousel2" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('images/slider-images/2103a4b698365893c9c3434726b46688.jpeg') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Texto Esquerda -->
-                <div class="col-12 col-md-6 mt-3 mb-5 mb-md-0 fw-300 align-items-start">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start justify-content-start">
                     <h5 class="fw-300 mb-5">Desenvolvemos:</h5>
                     <ul class="list-unstyled text-muted mb-0 d-flex flex-column align-items-start justify-content-start">
                         {{-- list with bullet points and a dot for each --}}
@@ -249,9 +256,9 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row align-items-center mb-5 plataforma column-reverse-mobile">
+            <div class="row align-items-start mb-5 plataforma column-reverse-mobile">
                 <!-- Texto Esquerda -->
-                <div class="col-12 col-md-6 mt-3 mb-5 mb-md-0 fw-300 align-items-start">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start">
                     <h5 class="fw-300 mb-5">Esqueça as limitações. Diga adeus aos intermediários. Com a Air Search, a
                         liberdade é total:</h5>
                     <ul class="list-unstyled text-muted mb-0 d-flex flex-column align-items-start justify-content-start">
@@ -292,8 +299,18 @@
                 </div>
 
                 <div class="col-12 col-md-6 ps-0">
-                    <img src="{{ asset('images/notebook-2.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('images/slider-images/1da45aabab4f2e1eb7a444e7d29b593e.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('images/slider-images/ca5c91ad28ee222e6966e58914e674db.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
 
