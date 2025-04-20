@@ -2,6 +2,10 @@
 
 @section('title', 'Soluções')
 
+@section('navbar-theme', 'navbar-light bg-white')
+
+@section('body-theme', 'navbar-light bg-white')
+
 @section('content')
     <section class="hero-section text-black bg-white">
         <div class="container-fluid pt-105">
@@ -134,21 +138,21 @@
     <section class="pb-7 pt-5 text-black bg-white">
         <div class="container">
             <div class="row text-center mb-4">
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/rodrigo-soriano.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Rodrigo Soriano</div>
                     <p class="text-muted mt-16">CEO & Founder</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/fred.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Fred Muller</div>
                     <p class="text-muted mt-16">CRO</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/cassia-pascheto.png') }}" class="img-fluid">
                     </div>
@@ -156,21 +160,21 @@
                     <p class="text-muted mt-16">Comercial & CS</p>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/cristiane-stuart.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Cristiane Stuart</div>
                     <p class="text-muted mt-16">Marketing</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/guilherme.png') }}" class="img-fluid">
                     </div>
                     <div class="fs-24 fw-400 mt-24">Guilherme Ferraz</div>
                     <p class="text-muted mt-16">CTO & PM</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-56 p-5">
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/viviane.png') }}" class="img-fluid">
                     </div>
@@ -181,7 +185,7 @@
         </div>
     </section>
 
-    <section class="hero-section text-black bg-white mt-56">
+    <section class="hero-section text-black bg-white pt-56">
         <div class="container-fluid">
             <div class="row area-title-wrapper">
                 <p class="text-muted area-title-label">Blog</p>
@@ -204,7 +208,7 @@
         </div>
     </section>
 
-    <section class="hero-section text-black bg-white mt-80">
+    <section class="hero-section text-black bg-white pt-80">
         <div class="container-fluid">
             <div class="row text-start mt-56 w-100">
                 <div class="col">
@@ -238,7 +242,7 @@
         </div>
     </section>
 
-    <section class="text-black bg-white mt-56 mb-56">
+    <section class="text-black bg-white pt-56 pb-56">
         <div class="container">
             <div class="row text-start w-100">
                 <div class="w-100 d-flex justify-content-start">
@@ -248,7 +252,7 @@
         </div>
     </section>
 
-    <section class="hero-section text-black bg-white mt-215 mb-156">
+    <section class="hero-section text-black bg-white pt-105 mb-156">
         <div class="container-fluid">
             <div class="row area-title-wrapper">
                 <p class="text-muted area-title-label">Imprensa</p>
@@ -259,15 +263,15 @@
                 <div class="col-12 d-flex flex-column justify-content-center text-start">
                     <h1 class="fw-300"> Air na Mídia: </h1>
                 </div>
-                <div class="mt-80 col-12 d-flex flex-column justify-content-center text-start">
+                <div class="mt-56 col-12 d-flex flex-column justify-content-center text-start">
                     <h5 class="fw-300"> Junte-se à AIR e Lidere o Futuro! 🚀 </h5>
                 </div>
                 <div class="mt-24 col-lg-11 col-md-11 d-flex flex-column justify-content-center text-start">
-                    <p class="text-muted mt-16 fw-300">Nascemos para transformar a relação entre marcas e pessoas! Combinamos empatia, criatividade e tecnologia para gerar impacto real e conexões autênticas. A Air não segue tendências, nós as criamos! Nossa visão pioneira e inquietude nos tornaram referência em inovação, dados e estratégia no marketing de influência. Não acredite em nós, veja! Confira as reportagens, artigos e menções que comprovam nossa liderança e como construímos conexões que respiram influência!</p>
+                    <p class="text-muted-4b mt-16 fw-300">Nascemos para transformar a relação entre marcas e pessoas! Combinamos empatia, criatividade e tecnologia para gerar impacto real e conexões autênticas. A Air não segue tendências, nós as criamos! Nossa visão pioneira e inquietude nos tornaram referência em inovação, dados e estratégia no marketing de influência. Não acredite em nós, veja! Confira as reportagens, artigos e menções que comprovam nossa liderança e como construímos conexões que respiram influência!</p>
                 </div>
             </div>
 
-            <div class="row w-100 mt-80">
+            <div class="row w-100 mt-40 pb-90">
                 <div class="col">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/air-2025-screenshot.png') }}" class="img-fluid">

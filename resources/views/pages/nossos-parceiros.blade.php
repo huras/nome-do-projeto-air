@@ -41,11 +41,11 @@
     </section>
 
     <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-        <div class="container-fluid px-0 text-start">
+        <div class="container px-0 text-start">
             <div class="row">
-                <div class="col-10 mx-auto">
-                    <h3 class="fw-500 mb-0 text-black">Descubra como a Air transforma</h3>
-                    <h3 class="fw-500 mb-5 text-black">conexões em impacto real.</h3>
+                <div class="col-12 mx-auto">
+                    <h3 class="fw-500 mb-0 text-black rainbow-strip-h3">Descubra como a Air transforma</h3>
+                    <h3 class="fw-500 mb-4 text-black rainbow-strip-h3">conexões em impacto real.</h3>
                     <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
                         Fale com a gente
                     </button>
@@ -62,7 +62,7 @@
         </div>
         <div class="container-fluid pt-64">
             <div class="row">
-                <div class="col-3 text-muted-b0 mt-660">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-660 mt-mobile-64">
                     <h5 class="mb-0 fw-300">
                         <b> Plataforma </b>
                     </h5>
@@ -70,12 +70,12 @@
                         <b> AirSearch </b>
                     </h5>
 
-                    <h5 class='text-rainbow fw-600 mt-48'>“É uma ferramenta que permite uma hipersegmentação, facilitando o trabalho no dia a dia.”</h5>
+                    <h5 class='text-rainbow fw-600 mt-48 normal-spacing'>“É uma ferramenta que permite uma hipersegmentação, facilitando o trabalho no dia a dia.”</h5>
 
-                    <p class='text-muted'> Agência Bold </p>
+                    <p class='text-muted fw-300'> Agência Bold </p>
                 </div>
 
-                <div class="col-3 text-muted-b0 mt-370">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-370 mt-mobile-64">
                     <h5 class="mb-0 fw-300">
                         <b> Campanhas </b>
                     </h5>
@@ -86,7 +86,7 @@
                     <img src="{{ asset('images/suit-man-video.png') }}" class="img-fluid">
                 </div>
 
-                <div class="col-3 text-muted-b0 mt-215">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-215 mt-mobile-64">
                     <h5 class="mb-4 fw-300">
                         <b> Insights </b>
                     </h5>
@@ -94,7 +94,7 @@
                     <img src="{{ asset('images/woman-video-1.png') }}" class="img-fluid">
                 </div>
 
-                <div class="col-3 text-muted-b0 mt-0">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-0 mt-mobile-32">
                     <h5 class="mb-0 fw-300">
                         <b> Sou </b>
                     </h5>
@@ -120,103 +120,103 @@
 
             <!-- Texto Institucional -->
             <div class="row pb-5 pt-80 nossos-clientes align-items-center justify-content-center">
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/airb&b.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/allianz.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/c6bank.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/catarina.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/downy.png') }}" class="img-fluid">
                     </div>
                 </div>
 
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/energizer.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/epson.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/estrela-bet.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/fgv.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/jbs.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/p&g.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/pilar.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/polenghui.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/puig.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/rayovac.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/sankhya.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/somos-juntos.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/swift.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/telecine.png') }}" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-3 col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clientes/tiktok.png') }}" class="img-fluid">
                     </div>

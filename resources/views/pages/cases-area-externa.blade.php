@@ -19,14 +19,14 @@
         <div class="container mt-3">
             <div class="row my-5 ">
                 <div class="col-12">
-                    <h5 class="mb-0 fw-300">
+                    <h5 class="mb-0 fw-300 text-white">
                         Criação com Propósito e Resultados Reais.
                     </h5>
                 </div>
             </div>
             <div class="row pb-5">
                 <div class="col-10">
-                    <p class="text-muted fw-300">
+                    <p class="text-muted-c3 fw-300">
                         Descubra como a AIR transforma narrativas em conversas que emocionam e geram impacto real. Explore nossos cases e inspire-se para construir o futuro da sua marca, com histórias que conectam e transformam.
                     </p>
                 </div>
@@ -85,7 +85,7 @@
         </div> --}}
     {{-- </section> --}}
 
-    <section class="text-white bg-black pt-215">
+    <section class="text-white bg-black pt-140">
         <div class="container">
             <div class="row">
                 <div class="col-4 mt-32">

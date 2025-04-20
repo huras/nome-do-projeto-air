@@ -22,7 +22,10 @@
 
     @vite(['resources/js/app.js'])
 </head>
-<body>
+@php
+    $bodyTheme = trim($__env->yieldContent('body-theme', 'navbar-dark bg-dark'));
+@endphp
+<body class="{{ $bodyTheme ?? 'bg-dark' }}">
     @include('components.header')
 
     <main>

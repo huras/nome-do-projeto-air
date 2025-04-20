@@ -6,13 +6,15 @@
 ])
 
 <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-    <div class="container-fluid text-start">
+    <div class="container text-start">
         <div class="row">
-            <div class="col-10 mx-auto">
-                <h3 class="fw-500 mb-5 text-black">{{ $title }}</h3>
-                <a href="{{ $buttonLink }}" class="btn btn-light fw-semibold" {{$buttonAttrs}}>
-                    {{ $buttonText }}
-                </a>
+            <div class="col-12">
+                <div class='ms-auto d-flex flex-column justify-content-center align-items-start text-center'>
+                    <h3 class="fw-500 mb-4 text-black rainbow-strip-h3">{{ $title }}</h3>
+                    <a href="{{ $buttonLink }}" class="btn btn-light fw-semibold" {{$buttonAttrs}}>
+                        {{ $buttonText }}
+                    </a>
+                </div>
             </div>
         </div>
     </div>

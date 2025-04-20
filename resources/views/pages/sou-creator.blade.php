@@ -38,22 +38,22 @@
         <div class="container-fluid mt-80">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow'> Visibilidade </h4>
+                    <h4 class='fw-600 text-rainbow normal-spacing'> Visibilidade </h4>
                     <p class="text-white fs-20"> Conecte-se e tenha seu perfil disponível para milhares de empresas que procuram influenciadores como você. </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow'> Praticidade </h4>
+                    <h4 class='fw-600 text-rainbow normal-spacing'> Praticidade </h4>
                     <p class="text-white fs-20"> A partir do momento em que seu perfil está em nossa base, você estará visível para empresas interessadas em colaborações e parcerias. </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow'> Destaque </h4>
+                    <h4 class='fw-600 text-rainbow normal-spacing'> Destaque </h4>
                     <p class="text-white fs-20"> Una-se à nossa empresa, com 15 anos de experiência no mercado e uma reputação sólida, conquistando a confiança de grandes clientes em busca de publicidade digital.  </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow'> Agilidade </h4>
+                    <h4 class='fw-600 text-rainbow normal-spacing'> Agilidade </h4>
                     <p class="text-white fs-20"> Para entrar em nossa plataforma, é muito simples! Basta preencher seu cadastro e conectar suas redes sociais desejadas. </p>
                 </div>
             </div>
@@ -63,11 +63,18 @@
     <section class="pt-105 bg-black">
     </section>
 
-    <x-rainbow-block-text
-        title="Amplie sua chance de efetivar novos negócios!"
-        button-text="Ir para o Meu Air"
-        button-link="{{ route('my-air') }}"
-    />
+    <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+        <div class="container text-start">
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Amplie sua chance de efetivar novos negócios!</h3>
+                    <a href="{{ route('my-air') }}" class="btn btn-light fw-semibold">
+                        Ir para o Meu Air
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="py-5 bg-black text-white">
         <div class="container">
@@ -91,13 +98,13 @@
             </div>
 
             <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start">
-                <h5 class="fw-300 pe-2 my-0">Automatize. Apareça. Monetize.</h5>
-                <h5 class="mb-3 fw-300 pe-2 my-0">Sua carreira, rentável e no piloto automático.</h5>
-                <p class="text-muted-c3">
+                <h5 class="text-white fw-300 pe-2 my-0">Automatize. Apareça. Monetize.</h5>
+                <h5 class="mb-4 fw-300 pe-2 my-0">Sua carreira, rentável e no piloto automático.</h5>
+                <p class="text-muted-c3 mb-4">
                     A REVOLUÇÃO É AGORA!
                 </p>
 
-                <p class="text-white fw-700">
+                <p class="text-muted-c3 fw-700 mb-0 pb-0">
                     Creators, preparem-se para o GAME CHANGER!
                 </p>
 
@@ -114,22 +121,22 @@
 
             <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start ps-4">
                 <h5 class="mb-3 fw-300 pe-2">Creator, maximize seus ganhos já!</h5>
-                <p class="text-muted-c3 mt-40">
+                <p class="text-muted-c3 mt-40 line-height-1">
                     <div>
                         <li class="fw-300 text-muted-c3 li-paragraph mb-2">
-                            <b class="fw-600 text-white">+ LUCRO</b>: Aira encontra os produtos perfeitos para sua audiência e bomba sua dicas!
+                            <b class="fw-600 text-muted-c3">+ LUCRO</b>: Aira encontra os produtos perfeitos para sua audiência e bomba sua dicas!
                         </li>
                         <li class="fw-300 text-muted-c3 li-paragraph mb-2">
-                            <b class="fw-600 text-white">+ AGILIDADE</b>: Contratos DIGITAIS sem complicação e com SEGURANÇA!
+                            <b class="fw-600 text-muted-c3">+ AGILIDADE</b>: Contratos DIGITAIS sem complicação e com SEGURANÇA!
                         </li>
                         <li class="fw-300 text-muted-c3 li-paragraph mb-2">
-                            <b class="fw-600 text-white">+ PROFISSIONALISMO</b>: Mídia VISUAL incrível gerada em SEGUNDOS!
+                            <b class="fw-600 text-muted-c3">+ PROFISSIONALISMO</b>: Mídia VISUAL incrível gerada em SEGUNDOS!
                         </li>
                         <li class="fw-300 text-muted-c3 li-paragraph mb-2">
-                            <b class="fw-600 text-white">- CUSTOS</b>: Estoque ZERO, operação 100% DIGITAL!
+                            <b class="fw-600 text-muted-c3">- CUSTOS</b>: Estoque ZERO, operação 100% DIGITAL!
                         </li>
                         <li class="fw-300 text-muted-c3 li-paragraph mb-2">
-                            <b class="fw-600 text-white">+ ORGANIZAÇÃO</b>: Pagamentos AUTOMÁTICOS e SEM STRESS!
+                            <b class="fw-600 text-muted-c3">+ ORGANIZAÇÃO</b>: Pagamentos AUTOMÁTICOS e SEM STRESS!
                         </li>
                     </div>
                 </p>
@@ -148,7 +155,7 @@
 
     {{-- --------------------- --}}
 
-    <section class="py-5 pt-160 bg-black text-white">
+    <section class="py-5 pt-122 bg-black text-white">
         <div class="container">
             <!-- Título principal -->
             <div class="row align-items-center mb-5 mt-5">
@@ -158,7 +165,7 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid pt-4">
             <!-- Primeira linha: imagem do celular + texto descritivo -->
             <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma">
                 <div class="col-12 col-md-6 pe-0">
@@ -190,12 +197,18 @@
             </div>
         </div>
 
-        <x-rainbow-block-text
-            title="Transforme audiência em oportunidades reais!"
-            button-text="Faça agora o Connect"
-            button-link="{{ route('my-air') }}"
-        />
-
+        <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+            <div class="container text-start">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Transforme audiência em oportunidades reais!</h3>
+                        <a href="{{ route('my-air') }}" class="btn btn-light fw-semibold">
+                            Faça agora o Connect
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <div class="bg-black text-white">
         </div>

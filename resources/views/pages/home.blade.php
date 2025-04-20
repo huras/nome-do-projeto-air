@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    <section class="hero-section text-white bg-black pt-5 min-vh-100">
+    <section class="hero-section text-white bg-black pt-5">
         <div class="container">
             <div class="row w-100">
                 <div
@@ -25,7 +25,7 @@
         </section>
     </section>
 
-    <section class=" text-white bg-black">
+    <section class=" text-white bg-black" style="margin-top: 1%;">
         <div class="container px-0 ">
             <div class="row w-100">
                 <div class="d-flex flex-column justify-content-center text-start half-below-text" style="transform: translateY(50%);">
@@ -79,8 +79,8 @@
         </div>
     </section>
 
-    <section class="py-5">
-        <div class="container">
+    <section class="py-5 text-black bg-white">
+        <div class="container ">
             <!-- Texto Institucional -->
             <div class="row my-5">
                 <div class="col-12 col-md-12 col-sm-12 mx-auto my-5">
@@ -94,14 +94,14 @@
             </div>
     </section>
 
-    <section>
-        <div class="container-fluid text-black pb-5">
+    <section class="text-black bg-white">
+        <div class="container-fluid pb-5">
             <!-- Três Colunas -->
             <div class="row g-4 pb-5">
                 <!-- Coluna 1 -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12 px-4">
                     <h5 class="fw-600">A gente cria. Ouve. <br> Estuda. Analisa. <br> Mede. Conecta.</h5>
-                    <p class="text-muted mt-3">
+                    <p class="text-muted-59 mt-3 fw-300">
                         Fazemos com que marcas se conectem diretamente aos seus consumidores, trazendo para essa conversa, os criadores que mais transformam em conversão para as marcas.
                     </p>
                 </div>
@@ -109,7 +109,7 @@
                 <!-- Coluna 2 -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12 px-4">
                     <h5 class="fw-600">Aqui na AIR a gente acredita que criar impacto não é sorte: <br>é método.</h5>
-                    <p class="text-muted mt-3">
+                    <p class="text-muted-59 mt-3 fw-300">
                         A gente combina inteligência com criatividade. O resultado: Impacto garantido!
                     </p>
                 </div>
@@ -117,7 +117,7 @@
                 <!-- Coluna 3 -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12 px-4 mx-auto">
                     <h5 class="fw-600">Somos pioneiros. <br>Somos inquietos.</h5>
-                    <p class="text-muted mt-3">
+                    <p class="text-muted-59 mt-5 fw-300">
                         E para a gente, trazer os melhores resultados para nossas marcas, é tudo. Tudo mesmo.
                     </p>
                 </div>
@@ -132,12 +132,12 @@
                 Reunimos especialistas para oferecer  criatividade disruptiva. Entregando integração com especialização profunda. É assim que nós fazemos.
             </p>
         </div>
-        <div class="container-fluid mb-5 pt-122 px-4">
+        <div class="container-fluid mb-5 pt-80 px-4">
             <!-- Bloco de introdução + comparação -->
             <div class="row">
 
                 <!-- Comparação Direita -->
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-5">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow'>Plataforma</h3>
                         <h3 class='text-rainbow'>AirSearch</h3>
@@ -162,7 +162,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-5">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow'>Campanhas Customizadas</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-5">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow'>Insights</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -197,13 +197,13 @@
                             </div>
                         </div>
 
-                        <div class='mb-5' style="margin-top: 102px">
+                        <div class='mb-2' style="margin-top: 32px">
                             <h5 class='fw-300 text-white'>Insights</h5>
                             <p class='text-muted-b0b0b0 my-0'>Deciframos oportunidades, analisamos a saúde</p>
                             <p class='text-muted-b0b0b0 my-0'>da sua marca, qualificamos sua fun base.</p>
                         </div>
 
-                        <div class='my-5'>
+                        <div class='my-2' style="margin-top: 107px !important;">
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
@@ -213,7 +213,7 @@
 
 
                 <!-- Comparação Direita -->
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-5">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow'>IA Aira</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -223,13 +223,13 @@
                             </div>
                         </div>
 
-                        <div class='mb-5' style="margin-top: 128px">
+                        <div class='mb-5' style="margin-top: 60px">
                             <h5 class='fw-300 text-white'>Inteligência Artificial</h5>
                             <p class='text-muted-b0b0b0 my-0'>Aira: Sua IA exclusiva para curadoria</p>
                             <p class='text-muted-b0b0b0 my-0'>inteligente e eficiente de influenciadores.</p>
                         </div>
 
-                        <div class='mb-5' style="margin-top: 69px">
+                        <div class='mb-5' style="margin-top: 45px">
                             <a href="/solucoes#ai" type="button" class="btn btn-light">
                                 <span class="fw-600">Descubra o poder da IA</span>
                             </a>
@@ -237,7 +237,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-5">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow'>Sou <br>Creator</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -252,7 +252,7 @@
                             <p class='text-muted-b0b0b0 my-0'>Conecte suas redes sociais e descubra o poder da sua influência. Sua voz merece ser ouvida pelas marcas! </p>
                         </div>
 
-                        <div class='my-5'>
+                        <div class='my-2'>
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>

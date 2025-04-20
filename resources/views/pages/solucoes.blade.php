@@ -103,6 +103,8 @@
         />
 
         <div class="container" id='campanhas-customizadas'>
+        </div>
+        <div class="container">
             <!-- Bloco de introdução + comparação -->
             <div class="row align-items-center mb-5 mt-160">
 
@@ -164,10 +166,10 @@
         </div>
 
         <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-            <div class="container-fluid text-start">
+            <div class="container text-start">
                 <div class="row">
-                    <div class="col-10 mx-auto">
-                        <h3 class="fw-500 mb-5 text-black">Monitore e celebre os dados da sua campanha!</h3>
+                    <div class="col-12 mx-auto">
+                        <h3 class="fw-500 mb-4 text-black rainbow-strip-h3">Monitore e celebre os dados da sua campanha!</h3>
                         <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
                             Fale com a gente
                         </button>
@@ -178,6 +180,8 @@
 
 
         <div class="container" id='insights'>
+        </div>
+        <div class="container" >
             <!-- Bloco de introdução + comparação -->
             <div class="row align-items-center mb-5 mt-160">
 
@@ -250,7 +254,7 @@
             <div class="container-fluid text-start">
                 <div class="row">
                     <div class="col-10 mx-auto">
-                        <h3 class="fw-500 mb-5 text-black">
+                        <h3 class="fw-500 mb-4 text-black rainbow-strip-h3">
                             Transforme dados em insights estratégicos!
                         </h3>
                         <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
@@ -333,10 +337,10 @@
         </div>
 
         <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-            <div class="container-fluid text-start">
+            <div class="container text-start">
                 <div class="row">
-                    <div class="col-10 mx-auto">
-                        <h3 class="fw-500 mb-5 text-black">
+                    <div class="col-12 mx-auto">
+                        <h3 class="fw-500 mb-4 text-black rainbow-strip-h3">
                             Descubra o poder da IA!
                         </h3>
                         <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">

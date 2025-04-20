@@ -4,8 +4,8 @@
 
 @section('content')
     <section class="hero-section text-white bg-black pb-5">
-        <div class="container-fluid py-5">
-            <div class="row area-title-wrapper mt-5">
+        <div class="container-fluid pt-0 pb-5">
+            <div class="row area-title-wrapper mt-3">
                 <p class="text-muted area-title-label-3">Cases</p>
             </div>
         </div>
@@ -33,28 +33,22 @@
         </div>
     </section>
 
-    <section class="text-black bg-white mt-90">
+    <section class="text-black bg-white pt-90">
         <div class="container">
-            <div class="row mb-5 ">
+            <div class="row ">
                 <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h5> Desafio </h5>
-                    <p class='text-muted'> O C6 Bank buscava ampliar sua presença digital e gerar maior awareness para seus
-                        produtos financeiros, destacando serviços como C6 Carbon Mastercard Black, C6 Empresas, C6 Invest,
-                        C6 Conta Global e C6 Assistant. O objetivo era construir uma comunicação autêntica com diferentes
-                        públicos e converter o engajamento da audiência em novas contas.</p>
+                    <p class='text-muted'> O C6 Bank buscava ampliar sua presença digital e gerar maior awareness para seus produtos financeiros, destacando serviços como C6 Carbon Mastercard Black, C6 Empresas, C6 Invest, C6 Conta Global e C6 Assistant.</p>
                 </div>
                 <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h5> O que fizemos </h5>
-                    <p class='text-muted'> A estratégia Always On ativou +18 influenciadores, de perfis variados – de
-                        finanças a lifestyle –, para garantir um conteúdo diversificado e atrativo. Com a criação de +230
-                        conteúdos em formatos variados (Reels, TikTok, Stories e YouTube), conseguimos explorar o
-                        storytelling de forma autêntica e impactante.</p>
+                    <p class='text-muted'> Ativamos mais de 18 influenciadores, com perfis variados (com relevância em finanças até lifestyle), para garantir um conteúdo diversificado e atrativo. Com a criação de +230 conteúdos em formatos variados (Reels, TikTok, Stories e YouTube), conseguimos explorar o storytelling de forma autêntica e impactante.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="text-black bg-white mt-166">
+    <section class="text-black bg-white pt-5 pb-4">
         <div class="container">
             <!-- Métricas Inferiores -->
             <div class="row text-center gy-4">
@@ -65,7 +59,7 @@
         </div>
     </section>
 
-    <section class="text-black bg-white mt-90">
+    <section class="text-black bg-white pt-9 pb-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-10 mx-auto">
@@ -100,7 +94,7 @@
     <div class="container">
         <div class="row mb-5 mt-80">
             <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 me-auto">
-                <h5> Diferencial Airfluencers </h5>
+                <h5 class='pb-4'> Diferencial Airfluencers </h5>
                 <p class='text-muted'> Além de impulsionar o awareness da marca, o engajamento dos influenciadores converteu-se diretamente em novas contas abertas, validando a estratégia da Airfluencers como um dos principais motores de aquisição digital do C6 Bank. </p>
             </div>
         </div>
@@ -117,7 +111,7 @@
         </div>
     </section> --}}
 
-    <section class="text-white bg-black mt-90 pt-5">
+    <section class="text-white bg-black mt-90 pt-5 pb-160">
         <div class="container-fluid">
             <div class="row">
                 <p class="text-muted-b0 fw-300">VER OUTROS</p>
