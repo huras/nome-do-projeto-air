@@ -82,14 +82,15 @@
                         <b> customizadas </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
+
                     <iframe
-                        width="442"
-                        height="785"
-                        src="https://www.youtube.com/embed/wBVQ1s1XaGY"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
+                    src="https://www.youtube.com/embed/wBVQ1s1XaGY?autoplay=0&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="width: 442px; height: 785px; border: none;"
+                    class="my-video"
+                    >
                     </iframe>
                 </div>
 
@@ -99,13 +100,13 @@
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
                     <iframe
-                        width="442"
-                        height="785"
-                        src="https://www.youtube.com/embed/4CbfQ46-u14"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
+                    src="https://www.youtube.com/embed/4CbfQ46-u14?autoplay=0&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="width: 442px; height: 785px; border: none;"
+                    class="my-video"
+                    >
                     </iframe>
                 </div>
 
@@ -118,13 +119,13 @@
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
                     <iframe
-                        width="442"
-                        height="785"
-                        src="https://www.youtube.com/embed/XAFAq1FD7kw"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen>
+                    src="https://www.youtube.com/embed/XAFAq1FD7kw?autoplay=0&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="width: 442px; height: 785px; border: none;"
+                    class="my-video"
+                    >
                     </iframe>
                 </div>
             </div>
