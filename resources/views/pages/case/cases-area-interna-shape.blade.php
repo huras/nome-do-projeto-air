@@ -12,14 +12,14 @@
         <div class="container d-flex align-items-center">
             <div class="row w-100">
                 <div class="col-lg-8 col-md-8 d-flex flex-column justify-content-center text-start mb-5">
-                    <h3 class="fw-500">C6 BANK</h3>
+                    <h3 class="fw-500"> @yield('brand_title') </h3>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row ">
                 <div class="col-12">
-                    <img src="{{ asset('images/cases/c6bank-1.png') }}" class="img-fluid hero-logo mb-3">
+                    <img src="{{ asset(View::yieldContent('brand_image')) }}" class="img-fluid hero-logo mb-3">
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="row ">
                 <div class="col-12">
                     <h3 class="fw-500 pt-5 pb-2">Objetivo</h3>
-                    <h5 class="fw-300 text-muted">Construir uma comunicação autêntica com diferentes públicos e converter o engajamento da audiência em novas contas.</p>
+                    <h5 class="fw-300 text-muted">@yield('objetivo')</p>
                 </div>
             </div>
         </div>
@@ -38,11 +38,11 @@
             <div class="row ">
                 <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h5> Desafio </h5>
-                    <p class='text-muted'> O C6 Bank buscava ampliar sua presença digital e gerar maior awareness para seus produtos financeiros, destacando serviços como C6 Carbon Mastercard Black, C6 Empresas, C6 Invest, C6 Conta Global e C6 Assistant.</p>
+                    <p class='text-muted mt-3'> @yield('desafio')</p>
                 </div>
                 <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <h5> O que fizemos </h5>
-                    <p class='text-muted'> Ativamos mais de 18 influenciadores, com perfis variados (com relevância em finanças até lifestyle), para garantir um conteúdo diversificado e atrativo. Com a criação de +230 conteúdos em formatos variados (Reels, TikTok, Stories e YouTube), conseguimos explorar o storytelling de forma autêntica e impactante.</p>
+                    <p class='text-muted mt-3'> @yield('o_que_fizemos')</p>
                 </div>
             </div>
         </div>
@@ -66,24 +66,20 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title">12,1M</h2>
-                                <span class="fw-bold">Impressões totais</span>
+                                <h2 class="metric-title text-center w-100">@yield('total_impressions')</h2>
+                                <div class="fw-bold text-center w-100">@yield('total_impressions_title')</div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title">6,9M</h2>
-                                <div>
-                                    <span class="fw-bold">Contas alcançadas</span>
-                                </div>
+                                <h2 class="metric-title text-center w-100">@yield('accounts_reached')</h2>
+                                <div class="fw-bold text-center w-100">@yield('accounts_reached_title')</div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title">425k</h2>
-                                <div>
-                                    <span class="fw-bold">Interações</span>
-                                </div>
+                                <h2 class="metric-title text-center w-100">@yield('interactions')</h2>
+                                <div class="fw-bold text-center w-100">@yield('interactions_title')</div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title">6,1%</h2>
-                                <div class="fw-bold">Engajamento efetivo</div>
+                                <h2 class="metric-title text-center w-100">@yield('effective_engagement')</h2>
+                                <div class="fw-bold text-center w-100 px-3">@yield('effective_engagement_title')</div>
                             </div>
                         </div>
                     </div>
@@ -95,7 +91,7 @@
         <div class="row mb-5 mt-80">
             <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 me-auto">
                 <h5 class='pb-4'> Diferencial Airfluencers </h5>
-                <p class='text-muted'> Além de impulsionar o awareness da marca, o engajamento dos influenciadores converteu-se diretamente em novas contas abertas, validando a estratégia da Airfluencers como um dos principais motores de aquisição digital do C6 Bank. </p>
+                <p class='text-muted'> @yield('differencial_influencers') </p>
             </div>
         </div>
     </section>
@@ -117,31 +113,41 @@
                 <p class="text-muted-b0 fw-300">VER OUTROS</p>
             </div>
         </div>
+        <?php
+            $curent_case = View::yieldContent('curent_case');
+            $all_cases = [
+                ['case' => 'airbnb',   'bg' => 'airbnb_bg.png',   'text' => 'airbnb_text.png'],
+                ['case' => 'catarina', 'bg' => 'catarina_bg.png', 'text' => 'catarina_text.png'],
+                ['case' => 'c6',       'bg' => 'c6_bg.png',       'text' => 'c6_text.png'],
+                ['case' => 'fgv',      'bg' => 'fgv_bg.png',      'text' => 'fgv_text.png'],
+                ['case' => 'swift',    'bg' => 'swift_bg.png',    'text' => 'swift_text.png'],
+                ['case' => 'tiktok',   'bg' => 'tiktok_bg.png',   'text' => 'tiktok_text.png'],
+            ];
+            //pick 3 random except the current case
+            $cases = [];
+            $cases_count = 0;
+            shuffle($all_cases);
+            foreach ($all_cases as $case) {
+                if ($case['case'] != $curent_case) {
+                    $cases[] = $case;
+                    $cases_count++;
+                }
+                if ($cases_count == 4) {
+                    break;
+                }
+            }
+        ?>
         <div class="container-fluid">
             <div class="row align-items-start">
-                <div class="col-3 mt-32">
-                    <a href="{{ route('cases-interna', ['case' => 'airbnb']) }}" class='external_cases_slot text-decoration-none'>
-                        <img src="{{ asset('images/cases_externa/airbnb_bg.png') }}" class="img-fluid background">
-                        <div class='overlay'></div>
-                        <img src="{{ asset('images/cases_externa/airbnb_text.png') }}" class="img-fluid logo">
-                    </a>
-                </div>
-
-                <div class="col-3 mt-32">
-                    <a href="{{ route('cases-interna', ['case' => 'catarina']) }}" class='external_cases_slot text-decoration-none'>
-                        <img src="{{ asset('images/cases_externa/catarina_bg.png') }}" class="img-fluid background">
-                        <div class='overlay'></div>
-                        <img src="{{ asset('images/cases_externa/catarina_text.png') }}" class="img-fluid logo catarina">
-                    </a>
-                </div>
-
-                <div class="col-3 mt-32">
-                    <a href="{{ route('cases-interna', ['case' => 'fgv']) }}" class='external_cases_slot text-decoration-none'>
-                        <img src="{{ asset('images/cases_externa/fgv_bg.png') }}" class="img-fluid background">
-                        <div class='overlay'></div>
-                        <img src="{{ asset('images/cases_externa/fgv_text.png') }}" class="img-fluid logo">
-                    </a>
-                </div>
+                @foreach ($cases as $case)
+                    <div class="col-3 mt-32">
+                        <a href="{{ route('cases-interna', ['case' => $case['case']]) }}" class='external_cases_slot text-decoration-none'>
+                            <img src="{{ asset('images/cases_externa/' . $case['bg']) }}" class="img-fluid background">
+                            <div class='overlay'></div>
+                            <img src="{{ asset('images/cases_externa/' . $case['text']) }}" class="img-fluid logo">
+                        </a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>

@@ -82,7 +82,15 @@
                         <b> customizadas </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/suit-man-video.png') }}" class="img-fluid">
+                    <iframe
+                        width="442"
+                        height="785"
+                        src="https://www.youtube.com/embed/wBVQ1s1XaGY"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-215 mt-mobile-64">
@@ -90,7 +98,15 @@
                         <b> Insights </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/woman-video-1.png') }}" class="img-fluid">
+                    <iframe
+                        width="442"
+                        height="785"
+                        src="https://www.youtube.com/embed/4CbfQ46-u14"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-0 mt-mobile-32">
@@ -101,7 +117,15 @@
                         <b> Creator </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/woman-40s-video.png') }}" class="img-fluid">
+                    <iframe
+                        width="442"
+                        height="785"
+                        src="https://www.youtube.com/embed/XAFAq1FD7kw"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
