@@ -73,6 +73,9 @@
                         <a class="nav-link" href="{{ route('solucoes') }}">Soluções</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('sou-creator') }}">Sou Creator</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('sobre-nos') }}">Sobre nós</a>
                     </li>
                     <li class="nav-item">
