@@ -9,7 +9,7 @@
     <section class="hero-section text-white bg-black">
         <div class="container-fluid py-5">
             <div class="row area-title-wrapper mt-5">
-                <p class="text-muted area-title-label-2">Nossos Clientes</p>
+                <p class="text-muted area-title-label-2" style="transform: translateY(-250%);">Nossos Clientes</p>
             </div>
         </div>
         <div class="container d-flex align-items-center half-into-bottom-image">
@@ -119,106 +119,102 @@
             </div>
 
             <!-- Texto Institucional -->
-            <div class="row pb-5 pt-80 nossos-clientes align-items-center justify-content-center">
+            <div class="row pb-5 pt-80 nossos-clientes align-items-start justify-content-start">
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/airb&b.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/airb&b.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/allianz.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/allianz.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/c6bank.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/c6bank.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/catarina.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/catarina.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/downy.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/downy.png') }}" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/energizer.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/energizer.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/epson.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/epson.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/estrela-bet.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/estrela-bet.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/fgv.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/fgv.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/jbs.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/jbs.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/p&g.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/somos-juntos.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/pilar.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/p&g.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/polenghui.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/pilar.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/puig.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/polenghi.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/rayovac.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/puig.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/sankhya.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/rayovac.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/somos-juntos.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/sankhya.png') }}" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="{{ asset('images/clientes2/swift.png') }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/swift.png') }}" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/telecine.png') }}" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <img src="{{ asset('images/clientes/tiktok.png') }}" class="img-fluid">
+                        <img src="{{ asset('images/clientes2/tiktok.png') }}" class="img-fluid">
                     </div>
                 </div>
             </div>

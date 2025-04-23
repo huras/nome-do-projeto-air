@@ -16,9 +16,9 @@ Route::get('/sobre-nos', function () {
     return view('pages.sobre-nos');
 })->name('sobre-nos');
 
-Route::get('/nossos-parceiros', function () {
-    return view('pages.nossos-parceiros');
-})->name('nossos-parceiros');
+Route::get('/nossos-clientes', function () {
+    return view('pages.nossos-clientes');
+})->name('nossos-clientes');
 
 Route::get('/cases-area-externa', function () {
     return view('pages.cases-area-externa');

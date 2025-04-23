@@ -31,6 +31,11 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8 me-auto d-flex flex-column justify-content-center text-start">
                     <h1 class="fw-300"> <span class="text-black">Marcas e Creators.</span></h1>
+                    <div class="pt-3">
+                        <a href="/sou-creator#meu-air" class="btn btn-dark fw-semibold">
+                            Ir para o Meu Air
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,13 +73,15 @@
             <div class="row">
                 <div class="col-12 mx-auto">
                     <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Amplie sua chance de efetivar novos negócios!</h3>
-                    <a href="{{ route('my-air') }}" class="btn btn-light fw-semibold">
+                    <a href="/sou-creator#meu-air" class="btn btn-light fw-semibold">
                         Ir para o Meu Air
                     </a>
                 </div>
             </div>
         </div>
     </section>
+
+    <div id='meu-air'></div>
 
     <section class="py-5 bg-black text-white">
         <div class="container">
@@ -150,7 +157,7 @@
     <x-rainbow-block-text
         title="Construa o futuro da sua carreira agora!"
         button-text="Ir para o Meu Air"
-        button-link="{{ route('my-air') }}"
+        button-link="/sou-creator#meu-air"
     />
 
     {{-- --------------------- --}}
@@ -202,9 +209,13 @@
                 <div class="row">
                     <div class="col-12 mx-auto">
                         <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Transforme audiência em oportunidades reais!</h3>
-                        <a href="{{ route('my-air') }}" class="btn btn-light fw-semibold">
+                        <button
+                            class="btn btn-light fw-semibold"
+                            data-bs-toggle="modal"
+                            data-bs-target="#contactModal"
+                        >
                             Faça agora o Connect
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -226,4 +237,4 @@
 
 @section('footer-bg-theme', 'bg-white')
 @section('footer-text-theme', 'text-black')
-@section('footer-svg-fill', 'white')
+@section('footer-svg-fill', 'black')

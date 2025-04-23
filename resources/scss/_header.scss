@@ -109,7 +109,14 @@ nav .text-bg-dark li a{
 nav {
     padding-top: 32px!important;
     padding-bottom: 32px!important;
-    @media (min-width: 768px) {
-        // max-height: 109px;
+
+    @media (max-width: 768px) {
+        padding-top: 16px!important;
+        padding-bottom: 16px!important;
+    }
+
+    @media (max-width: 425px) {
+        padding-top: 8px!important;
+        padding-bottom: 8px!important;
     }
 }

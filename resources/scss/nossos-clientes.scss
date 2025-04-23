@@ -13,9 +13,17 @@
 
     *:has(img){
         img{
-            max-height: 92px;
-            max-width: 258px;
+            height: auto;
+            width: 258px;
             margin: 60px;
+
+            @media (max-width: 1024px) {
+                transform: scale(0.8);
+            }
+
+            @media (max-width: 425px) {
+                transform: scale(1);
+            }
         }
     }
 }

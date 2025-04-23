@@ -76,7 +76,7 @@
                         <a class="nav-link" href="{{ route('sobre-nos') }}">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('nossos-parceiros') }}">Nossos parceiros</a>
+                        <a class="nav-link" href="{{ route('nossos-clientes') }}">Nossos clientes</a>
                     </li>
                     <li class="nav-item">
                         {{-- Criar rota: Route::get('/cases', ...) --}}
