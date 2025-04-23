@@ -32,7 +32,7 @@
                 <div class="col-lg-8 col-md-8 me-auto d-flex flex-column justify-content-center text-start">
                     <h1 class="fw-300"> <span class="text-black">Marcas e Creators.</span></h1>
                     <div class="pt-3">
-                        <a href="https://airkit.to/" class="btn btn-dark fw-semibold">
+                        <a href="https://airkit.to/" class="btn btn-dark fw-semibold" target="_blank">
                             Ir para o Meu Air
                         </a>
                     </div>
@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-12 mx-auto">
                     <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Amplie sua chance de efetivar novos negócios!</h3>
-                    <a href="https://airkit.to/" class="btn btn-light fw-semibold">
+                    <a href="https://airkit.to/" class="btn btn-light fw-semibold" target="_blank">
                         Ir para o Meu Air
                     </a>
                 </div>
@@ -158,6 +158,7 @@
         title="Construa o futuro da sua carreira agora!"
         button-text="Ir para o Meu Air"
         button-link="https://airkit.to/"
+        target="_blank"
     />
 
     {{-- --------------------- --}}
