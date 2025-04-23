@@ -40,12 +40,11 @@
         </div>
     </section>
 
-    <section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-        <div class="container px-0 text-start">
+    <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+        <div class="container px-0 py-0 text-start" style="margin-top: -8px !important;">
             <div class="row">
                 <div class="col-12 mx-auto">
-                    <h3 class="fw-500 mb-0 text-black rainbow-strip-h3">Descubra como a Air transforma</h3>
-                    <h3 class="fw-500 mb-4 text-black rainbow-strip-h3">conexões em impacto real.</h3>
+                    <h3 class="fw-500 mb-4 mt-0 text-black rainbow-strip-h3">Descubra como a Air transforma conexões em impacto real.</h3>
                     <button data-bs-toggle="modal" data-bs-target="#contactModal" class="btn btn-light fw-semibold">
                         Fale com a gente
                     </button>
@@ -83,7 +82,16 @@
                         <b> customizadas </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/suit-man-video.png') }}" class="img-fluid">
+
+                    <iframe
+                    src="https://www.youtube.com/embed/wBVQ1s1XaGY?autoplay=0&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="width: 442px; height: 785px; border: none;"
+                    class="my-video"
+                    >
+                    </iframe>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-215 mt-mobile-64">
@@ -91,7 +99,15 @@
                         <b> Insights </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/woman-video-1.png') }}" class="img-fluid">
+                    <iframe
+                    src="https://www.youtube.com/embed/4CbfQ46-u14?autoplay=0&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="width: 442px; height: 785px; border: none;"
+                    class="my-video"
+                    >
+                    </iframe>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-0 mt-mobile-32">
@@ -102,7 +118,15 @@
                         <b> Creator </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
-                    <img src="{{ asset('images/woman-40s-video.png') }}" class="img-fluid">
+                    <iframe
+                    src="https://www.youtube.com/embed/XAFAq1FD7kw?autoplay=0&mute=0&controls=0&modestbranding=1&rel=0&playsinline=1"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                    style="width: 442px; height: 785px; border: none;"
+                    class="my-video"
+                    >
+                    </iframe>
                 </div>
             </div>
         </div>

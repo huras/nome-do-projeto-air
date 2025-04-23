@@ -34,57 +34,6 @@
         </div>
     </section>
 
-    {{-- <section class="text-black bg-white">
-        <div class="container-fluid bg-black pt-90 ">
-        </div>
-        <div class="container ">
-            <div class="row ">
-                <div class="col-11 me-auto mt_-134">
-                    <img src="{{ asset('images/cases/c6bank.png') }}" class="img-fluid hero-logo mb-3">
-                    <a href="{{ route('cases-interna') }}" class="text-decoration-none  text-black">
-                        <h3 class="mb-0 fw-500">
-                            <b>Always On</b>
-                        </h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    {{-- <section class="text-black bg-white mt-166"> --}}
-        {{-- <div class="container-fluid">
-            <div class="row mb-5 ">
-                <div class="col-7">
-                    <a href="{{ route('cases-interna') }}" class="text-decoration-none">
-                        <img src="{{ asset('images/cases/tiktok.png') }}" class="img-fluid hero-logo mb-3">
-                    </a>
-                </div>
-                <div class="col-3 me-auto">
-                    <a href="{{ route('cases-interna') }}" class="text-decoration-none  text-black">
-                        <h3 class="mb-0 fw-500">
-                            TikTok Promover
-                        </h3>
-                    </a>
-                </div>
-            </div>
-        </div> --}}
-
-        {{-- <div class="container-fluid">
-            <div class="row mb-5 ">
-                <div class="col-3 ms-auto">
-                    <a href="{{ route('cases-interna') }}" class="text-decoration-none">
-                        <h3 class="mb-0 fw-500 text-black">
-                            TikTok Promover
-                        </h3>
-                    </a>
-                </div>
-                <div class="col-7">
-                    <a href="{{ route('cases-interna') }}"> <img src="{{ asset('images/cases/airb&b.png') }}" class="img-fluid hero-logo mb-3"> </a>
-                </div>
-            </div>
-        </div> --}}
-    {{-- </section> --}}
-
     <section class="text-white bg-black pt-140">
         <div class="container">
             <div class="row">

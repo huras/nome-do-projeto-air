@@ -25,7 +25,16 @@ Route::get('/cases-area-externa', function () {
 })->name('cases-externa');
 
 Route::get('/cases-area-interna', function () {
-    return view('pages.case.cases-area-interna');
+    //get url param named case
+    $case = request()->query('case');
+
+    if(!empty($case)) {
+        //if case is not null, return view with case
+        return view('pages.case.cases-area-interna-'.$case);
+    } else {
+        //redirect to area externa
+        return redirect()->route('cases-externa');
+    }
 })->name('cases-interna');
 
 Route::get('/sou-creator', function () {

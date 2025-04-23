@@ -5,8 +5,8 @@
     'buttonAttrs' => '',
 ])
 
-<section class="py-5 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-    <div class="container text-start">
+<section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+    <div class="container px-0 py-0 text-start" style="margin-top: -8px !important;">
         <div class="row">
             <div class="col-12">
                 <div class='ms-auto d-flex flex-column justify-content-center align-items-start text-center'>
