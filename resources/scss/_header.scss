@@ -64,13 +64,12 @@ li.nav-item a{
 }
 
 li.nav-item a{
-    font-size: 10.75vh!important;
-
+    font-size: 8.75vh!important;
     @media (max-width: 768px) {
-        font-size: 11vw!important;
+        font-size: 7.25vh!important;
     }
     @media (max-width: 425px) {
-        font-size: 17vw!important;
+        font-size: 7.25vh!important;
     }
 }
 
