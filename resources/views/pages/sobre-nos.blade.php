@@ -138,48 +138,48 @@
     <section class="pb-7 pt-5 text-black bg-white">
         <div class="container">
             <div class="row text-center mb-4">
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/rodrigo-soriano.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-400 mt-24">Rodrigo Soriano</div>
-                    <p class="text-muted mt-16">CEO & Founder</p>
+                    <p class="fw-400 mt-24 mt-sm-16 mb-0">Rodrigo Soriano</p>
+                    <p class="text-muted mt-16 mt-sm-8 mb-0">CEO & Founder</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/fred.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-400 mt-24">Fred Muller</div>
-                    <p class="text-muted mt-16">CRO</p>
+                    <p class="fw-400 mt-24 mt-sm-16 mb-0">Fred Muller</p>
+                    <p class="text-muted mt-16 mt-sm-8 mb-0">CRO</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/cassia-pascheto.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-400 mt-24">Cassia Pascheto</div>
-                    <p class="text-muted mt-16">Comercial & CS</p>
+                    <p class="fw-400 mt-24 mt-sm-16 mb-0">Cassia Pascheto</p>
+                    <p class="text-muted mt-16 mt-sm-8 mb-0">Comercial & CS</p>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/cristiane-stuart.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-400 mt-24">Cristiane Stuart</div>
-                    <p class="text-muted mt-16">Marketing</p>
+                    <p class="fw-400 mt-24 mt-sm-16 mb-0">Cristiane Stuart</p>
+                    <p class="text-muted mt-16 mt-sm-8 mb-0">Marketing</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/guilherme.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-400 mt-24">Guilherme Ferraz</div>
-                    <p class="text-muted mt-16">CTO & PM</p>
+                    <p class="fw-400 mt-24 mt-sm-16 mb-0">Guilherme Ferraz</p>
+                    <p class="text-muted mt-16 mt-sm-8 mb-0">CTO & PM</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-32 p-3">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-6 mt-32 p-3">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/equipe/viviane.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-400 mt-24">Viviane Santos</div>
-                    <p class="text-muted mt-16">Planejamento</p>
+                    <p class="fw-400 mt-24 mt-sm-16 mb-0">Viviane Santos</p>
+                    <p class="text-muted mt-16 mt-sm-8 mb-0">Planejamento</p>
                 </div>
             </div>
         </div>
@@ -211,32 +211,32 @@
     <section class="hero-section text-black bg-white pt-80">
         <div class="container-fluid">
             <div class="row text-start mt-56 w-100">
-                <div class="col">
+                <div class="col-md-4 col-sm-12 mt-sm-24">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/teenager-black-girls.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-700 line-height-1 mt-24">Como a geração Z está influenciando as estratégias de marketing em 2025</div>
-                    <div class="mt-16">
+                    <p class="fw-700 line-height-1 mt-24">Como a geração Z está influenciando as estratégias de marketing em 2025</p>
+                    <p class="mt-16">
                         <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
-                    </div>
+                    </p>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12 mt-sm-24">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/mosaic-blode-girl-with-red-clothes.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-700 line-height-1 mt-24">Como os dados estão moldando as decisões de marketing</div>
-                    <div class="mt-16">
+                    <p class="fw-700 line-height-1 mt-24">Como os dados estão moldando as decisões de marketing</p>
+                    <p class="mt-16">
                         <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
-                    </div>
+                    </p>
                 </div>
-                <div class="col">
+                <div class="col-md-4 col-sm-12 mt-sm-24">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/white-woman-charts-on-monitor.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-700 line-height-1 mt-24">O futuro das redes sociais: quais plataformas ganharão destaque em 2025</div>
-                    <div class="mt-16">
+                    <p class="fw-700 line-height-1 mt-24">O futuro das redes sociais: quais plataformas ganharão destaque em 2025</p>
+                    <p class="mt-16">
                         <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
@@ -272,24 +272,24 @@
             </div>
 
             <div class="row w-100 mt-40 pb-90">
-                <div class="col">
+                <div class="col-md-4 col-sm-12 mt-sm-24">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/air-2025-screenshot.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-700 line-height-1 mt-24">Link 1 para matérias em veículos de mídia, imprensa, menções etc.</div>
-                    <div class="mt-16">
+                    <p class="fw-700 line-height-1 mt-24">Link 1 para matérias em veículos de mídia, imprensa, menções etc.</p>
+                    <p class="mt-16">
                         <a class="article-link" href="https://airfluencers.com/" >Ir para a matéria ></a>
-                    </div>
+                    </p>
                 </div>
 
-                <div class="col">
+                <div class="col-md-4 col-sm-12 mt-sm-24">
                     <div class="mb-2 bg-light d-flex align-items-center justify-content-center">
                         <img src="{{ asset('images/clipe-de-baile-de-favela.png') }}" class="img-fluid">
                     </div>
-                    <div class="fs-24 fw-700 line-height-1 mt-24">Link 2 para matérias em veículos de mídia, imprensa, menções etc.</div>
-                    <div class="mt-16">
+                    <p class="fw-700 line-height-1 mt-24">Link 2 para matérias em veículos de mídia, imprensa, menções etc.</p>
+                    <p class="mt-16">
                         <a class="article-link" href="https://airfluencers.com/" >Ir para a matéria ></a>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>

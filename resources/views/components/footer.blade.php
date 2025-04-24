@@ -1,6 +1,6 @@
 <footer class="footer-custom @yield('footer-bg-theme', 'bg-white') @yield('footer-text-theme', 'text-black') pb-32 pt-32">
     <div class="container-fluid px-4 pe-5">
-        <h1 class="display-4 my-5 py-4 fale-conosco ">Contato</h1>
+        <h1 class=" my-5 py-4 fale-conosco mt-sm-2">Contato</h1>
         <div class="row ">
             <div class="col-sm-12 col-md-6 col-lg-3 py-4">
                 <p class="pe-4 fs-18 text-decoration-underline">
@@ -93,10 +93,10 @@
             <div class="col-lg-4 col-md-4 col-sm-12 pt-3">
                 <p class="pe-4 fs-18 small mb-0 text-start text-sm-center">&copy; Todos os direitos reservados. Air&reg; 2025.</p>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 pt-3 text-md-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 pt-3 text-md-center text-sm-start">
                 <a href="{{ route('privacy-policy') }}" class="@yield('footer-text-theme', 'text-black') small me-3">Política de Privacidade e Termos de Uso</a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 pt-3 text-md-end text-sm-center air-footer-logo-wrapper">
+            <div class="col-lg-4 col-md-4 col-sm-12 pt-3 text-md-center text-sm-start air-footer-logo-wrapper">
                 <a href="/">
                     <svg width="87" height="51" viewBox="0 0 87 51" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M33.3299 12.8823V17.4323C29.7913 13.9526 24.9417 11.8018 19.5983 11.8018C8.79181 11.8018 0 20.5942 0 31.4015C0 42.2088 8.79181 50.9998 19.5983 50.9998C24.9417 50.9998 29.7913 48.849 33.3299 45.3693V49.8187H41.1299V12.8823H33.3299ZM19.5983 43.6087C12.867 43.6087 7.39056 38.1319 7.39056 31.4015C7.39056 24.6712 12.867 19.1944 19.5983 19.1944C26.3296 19.1944 31.8045 24.6712 31.8045 31.4015C31.8045 38.1319 26.3281 43.6087 19.5983 43.6087Z" fill="@yield('footer-svg-fill', 'black')"/>

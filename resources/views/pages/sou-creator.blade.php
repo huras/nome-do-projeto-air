@@ -69,10 +69,10 @@
     </section>
 
     <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-        <div class="container px-0 py-0 text-start" style="margin-top: -8px !important;">
+        <div class="container px-0 py-0 px-sm-inherit text-start" style="margin-top: -8px !important;">
             <div class="row">
                 <div class="col-12 mx-auto">
-                    <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Amplie sua chance de efetivar novos negócios!</h3>
+                    <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start text-start">Amplie sua chance de efetivar novos negócios!</h3>
                     <a href="https://airkit.to/" class="btn btn-light fw-semibold" target="_blank">
                         Ir para o Meu Air
                     </a>
@@ -206,10 +206,10 @@
         </div>
 
         <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-            <div class="container px-0 py-0 text-start" style="margin-top: -8px !important;">
+            <div class="container px-0 py-0 px-sm-inherit text-start" style="margin-top: -8px !important;">
                 <div class="row">
                     <div class="col-12 mx-auto">
-                        <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start">Transforme audiência em oportunidades reais!</h3>
+                        <h3 class="fw-500 mb-4 text-black rainbow-strip-h3 text-start text-start">Transforme audiência em oportunidades reais!</h3>
                         <button
                             class="btn btn-light fw-semibold"
                             data-bs-toggle="modal"

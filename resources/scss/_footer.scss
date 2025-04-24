@@ -14,15 +14,6 @@
         @media (max-width: 768px) {
             font-size: 64px !important;
         }
-        @media (max-width: 425px) {
-            font-size: 48px !important;
-        }
-        @media (max-width: 375px) {
-            font-size: 44px !important;
-        }
-        @media (max-width: 320px) {
-            font-size: 36px !important;
-        }
 
         font-family: Lexend;
         line-height: 100%;
@@ -56,10 +47,17 @@
 
 
 .air-footer-logo-wrapper{
-    @media (max-width: 768px) {
+    @media (max-width: 425px) {
         display: flex;
-    justify-content: center;
-    align-items: center;
+        justify-content: start;
+        align-items: center;
     }
+}
 
+
+
+.floating-chat-window{
+    @media (max-width: 768px) {
+        bottom: 96px;
+    }
 }

@@ -7,11 +7,11 @@
         <div class="container">
             <div class="row w-100">
                 <div
-                    class="col-lg-4 col-md-12 d-flex flex-column justify-content-center text-center home-hero-wrapper mx-auto">
-                    <h2 class="fw-light home-hero-text">Nós</h2>
-                    <h2 class="fw-light home-hero-text-secondary">somos a.</h2>
+                    class="col-lg-5 col-md-12 d-flex flex-column justify-content-center text-center home-hero-wrapper mx-auto">
+                    <h1 class="fw-light home-hero-text text-sm-start">Nós</h1>
+                    <h1 class="fw-light home-hero-text-secondary text-sm-start">somos a</h1>
                 </div>
-                <div class="col-lg-8 col-md-12 px-0 d-flex justify-content-center align-items-center home-hero-wrapper">
+                <div class="col-lg-7 col-md-12 px-0 d-flex justify-content-center align-items-center home-hero-wrapper">
                     <img src="{{ asset('images/air_animado_home.gif') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
                 </div>
             </div>
@@ -25,12 +25,12 @@
         </section>
     </section>
 
-    <section class=" text-white bg-black" style="margin-top: 1%;">
-        <div class="container px-0 ">
+    <section class=" text-white bg-black mt-56">
+        <div class="container">
             <div class="row w-100">
-                <div class="d-flex flex-column justify-content-center text-start half-below-text" style="transform: translateY(50%);">
-                    <h1 class="fw-light my-0 py-0">Respiramos</h1>
-                    <h1 class="fw-light my-0 py-0">influência.</h1>
+                <div class="d-flex flex-column justify-content-center text-start half-below-text">
+                    <h1 class="fw-300 my-0 py-0">Respiramos</h1>
+                    <h1 class="fw-300 my-0 py-0">influência.</h1>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
     </section>
 
     <section class="hero-section text-white bg-black py-5">
-        <div class="container py-5">
+        <div class="container">
             <div class="row text-center gy-4 home-hero-metrics align-items-start">
                 <div class="col d-flex flex-column align-items-center justify-content-start">
                     <img src="{{ asset('images/tiktok_marketing_partners.png') }}" alt="Air Logo Stroke" class="img-fluid mt-5">
@@ -57,7 +57,7 @@
                     <span class="metric-sub">Pioneira em<br>Marketing de Influência</span>
                 </div>
                 <div class="col d-flex flex-column align-items-center justify-content-center">
-                    <div class="metric-title">+1.000</div>
+                    <div class="metric-title">+1000</div>
                     <div>
                         <span class="fw-bold">campanhas</span>
                         <span class="metric-sub">transformadas<br>em conversas personalizadas</span>
@@ -82,13 +82,12 @@
     <section class="py-5 text-black bg-white">
         <div class="container ">
             <!-- Texto Institucional -->
-            <div class="row my-5">
+            <div class="row">
                 <div class="col-12 col-md-12 col-sm-12 mx-auto my-5">
-                    <h5 class="fw-300 text-justify mb-0">
+                    <h5 class="fw-300 text-justify mb-0 px-sm-5">
                         Nascemos para transformar a relação entre pessoas e marcas.
                         <br>
-                        Unimos empatia, criatividade e tecnologia para transformar diálogos em campanhas memoráveis —
-                        campanhas que geram conversas e impacto de verdade.
+                        Unimos empatia, criatividade e tecnologia para transformar diálogos em campanhas memoráveis; campanhas que geram conversas e impacto de verdade.
                     </h5>
                 </div>
             </div>
@@ -101,7 +100,7 @@
                 <!-- Coluna 1 -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12 px-4">
                     <h5 class="fw-600">A gente cria. Ouve. <br> Estuda. Analisa. <br> Mede. Conecta.</h5>
-                    <p class="text-muted-59 mt-3 fw-300">
+                    <p class="text-muted-59 mt-3 fw-300 mt-sm-8">
                         Fazemos com que marcas se conectem diretamente aos seus consumidores, trazendo para essa conversa, os criadores que mais transformam em conversão para as marcas.
                     </p>
                 </div>
@@ -109,7 +108,7 @@
                 <!-- Coluna 2 -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12 px-4">
                     <h5 class="fw-600">Aqui na AIR a gente acredita que criar impacto não é sorte: <br>é método.</h5>
-                    <p class="text-muted-59 mt-3 fw-300">
+                    <p class="text-muted-59 mt-3 fw-300 mt-sm-8">
                         A gente combina inteligência com criatividade. O resultado: Impacto garantido!
                     </p>
                 </div>
@@ -117,7 +116,7 @@
                 <!-- Coluna 3 -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12 px-4 mx-auto">
                     <h5 class="fw-600">Somos pioneiros. <br>Somos inquietos.</h5>
-                    <p class="text-muted-59 mt-5 fw-300">
+                    <p class="text-muted-59 mt-5 mt-sm-8 fw-300">
                         E para a gente, trazer os melhores resultados para nossas marcas, é tudo. Tudo mesmo.
                     </p>
                 </div>
@@ -126,7 +125,7 @@
     </section>
 
     <section class="pb-5 pt-122 bg-black text-white">
-        <div class="container pb-5">
+        <div class="container pb-5 px-sm-5 pb-sm-0">
             <h3> Nossas soluções </h3>
             <p class="text-muted mt-3">
                 Reunimos especialistas para oferecer  criatividade disruptiva. Entregando integração com especialização profunda. É assim que nós fazemos.
@@ -139,8 +138,8 @@
                 <!-- Comparação Direita -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h3 class='text-rainbow'>Plataforma</h3>
-                        <h3 class='text-rainbow'>AirSearch</h3>
+                        <h3 class='text-rainbow h2-sm'>Plataforma</h3>
+                        <h3 class='text-rainbow h2-sm'>AirSearch</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
                             <div class='text-white fw-300 me-2' style="line-height: 1;">BY</div>
                             <div>
@@ -164,7 +163,7 @@
 
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h3 class='text-rainbow'>Campanhas Customizadas</h3>
+                        <h3 class='text-rainbow h2-sm'>Campanhas Customizadas</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
                             <div class='text-white fw-300 me-2' style="line-height: 1;">BY</div>
                             <div>
@@ -189,7 +188,7 @@
 
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h3 class='text-rainbow'>Insights</h3>
+                        <h3 class='text-rainbow h2-sm'>Insights</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
                             <div class='text-white fw-300 me-2' style="line-height: 1;">BY</div>
                             <div>
@@ -215,7 +214,7 @@
                 <!-- Comparação Direita -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h3 class='text-rainbow'>IA Aira</h3>
+                        <h3 class='text-rainbow h2-sm'>IA Aira</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
                             <div class='text-white fw-300 me-2' style="line-height: 1;">BY</div>
                             <div>
@@ -239,7 +238,7 @@
 
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
                     <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h3 class='text-rainbow'>Sou <br>Creator</h3>
+                        <h3 class='text-rainbow h2-sm'>Sou <br>Creator</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
                             <div class='text-white fw-300 me-2' style="line-height: 1;">BY</div>
                             <div>

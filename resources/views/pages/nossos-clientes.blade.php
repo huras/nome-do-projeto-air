@@ -41,7 +41,7 @@
     </section>
 
     <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
-        <div class="container px-0 py-0 text-start" style="margin-top: -8px !important;">
+        <div class="container px-0 py-0 px-sm-inherit text-start" style="margin-top: -8px !important;">
             <div class="row">
                 <div class="col-12 mx-auto">
                     <h3 class="fw-500 mb-4 mt-0 text-black rainbow-strip-h3">Descubra como a Air transforma conexões em impacto real.</h3>
