@@ -124,19 +124,19 @@
         </div>
     </section>
 
-    <section class="pb-5 pt-122 bg-black text-white">
+    <section class="pb-5 pt-122 bg-black text-white pb-sm-0">
         <div class="container pb-5 px-sm-5 pb-sm-0">
             <h3> Nossas soluções </h3>
             <p class="text-muted mt-3">
                 Reunimos especialistas para oferecer  criatividade disruptiva. Entregando integração com especialização profunda. É assim que nós fazemos.
             </p>
         </div>
-        <div class="container-fluid mb-5 pt-80 px-4">
+        <div class="container-fluid mb-5 pt-80 px-4 mb-sm-0">
             <!-- Bloco de introdução + comparação -->
             <div class="row">
 
                 <!-- Comparação Direita -->
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>Plataforma</h3>
                         <h3 class='text-rainbow h2-sm'>AirSearch</h3>
@@ -147,13 +147,13 @@
                             </div>
                         </div>
 
-                        <div class='my-5'>
+                        <div class='my-5 mb-sm-0'>
                             <h5 class='fw-300 text-white'>Tecnologia</h5>
                             <p class='text-muted-b0b0b0 my-0'>Desbloqueie a influência que gera impacto e</p>
                             <p class='text-muted-b0b0b0 my-0'>conecte-se já!</p>
                         </div>
 
-                        <div class='mb-5 mt-4'>
+                        <div class='mb-5 mt-4 mt-sm-24px'>
                             <button type="button" class="btn btn-light">
                                 <span class="fw-600">Assine já!</span>
                             </button>
@@ -161,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>Campanhas Customizadas</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -171,7 +171,7 @@
                             </div>
                         </div>
 
-                        <div class='my-5'>
+                        <div class='my-5 mb-sm-0'>
                             <h5 class='fw-300 text-white'>Agência</h5>
                             <p class='text-muted-b0b0b0 my-0'>Lance sua campanha agora e veja seus</p>
                             <p class='text-muted-b0b0b0 my-0'>resultados imediatos! Gerenciamento completo</p>
@@ -186,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>Insights</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -196,13 +196,13 @@
                             </div>
                         </div>
 
-                        <div class='mb-2' style="margin-top: 32px">
+                        <div class='mb-2 mt-32 mb-sm-0'>
                             <h5 class='fw-300 text-white'>Insights</h5>
                             <p class='text-muted-b0b0b0 my-0'>Deciframos oportunidades, analisamos a saúde</p>
                             <p class='text-muted-b0b0b0 my-0'>da sua marca, qualificamos sua fun base.</p>
                         </div>
 
-                        <div class='my-2' style="margin-top: 107px !important;">
+                        <div class='my-2 mt-107 mt-sm-0 mt-sm-24px'>
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
@@ -212,7 +212,7 @@
 
 
                 <!-- Comparação Direita -->
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>IA Aira</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -222,13 +222,13 @@
                             </div>
                         </div>
 
-                        <div class='mb-5' style="margin-top: 60px">
+                        <div class='mb-5 mt-60 mt-sm-0 mb-sm-0'>
                             <h5 class='fw-300 text-white'>Inteligência Artificial</h5>
                             <p class='text-muted-b0b0b0 my-0'>Aira: Sua IA exclusiva para curadoria</p>
                             <p class='text-muted-b0b0b0 my-0'>inteligente e eficiente de influenciadores.</p>
                         </div>
 
-                        <div class='mb-5' style="margin-top: 45px">
+                        <div class='mb-5 mt-45 mt-sm-24px'>
                             <a href="/solucoes#ai" type="button" class="btn btn-light">
                                 <span class="fw-600">Descubra o poder da IA</span>
                             </a>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>Sou <br>Creator</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">

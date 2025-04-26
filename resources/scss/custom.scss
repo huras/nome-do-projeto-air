@@ -133,6 +133,9 @@ p {
         padding-top: 0px !important;
     }
 }
+.mt-60 {
+    margin-top: 60px !important;
+}
 .pt-64 {
     padding-top: 64px !important;
 }
@@ -165,6 +168,15 @@ p {
 }
 .pt-105 {
     padding-top: 105px !important;
+    @media (max-width: 425px) {
+        padding-top: 64px !important;
+    }
+}
+.mt-45 {
+    margin-top: 45px !important;
+}
+.mt-107{
+    margin-top: 107px !important;
 }
 .pt-122 {
     padding-top: 122px !important;
@@ -898,6 +910,12 @@ p,
     }
 }
 
+.pt-sm-64 {
+    @media (max-width: 425px) {
+        padding-top: 64px !important;
+    }
+}
+
 .py-sm-0 {
     @media (max-width: 425px) {
         padding-top: 0px !important;
@@ -1038,6 +1056,12 @@ p,
     }
 }
 
+.mt-sm-24px {
+    @media (max-width: 425px) {
+        margin-top: 24px !important;
+    }
+}
+
 .px-sm-0 {
     @media (max-width: 425px) {
         padding-right: 0px !important;
@@ -1048,5 +1072,25 @@ p,
 .fs-sm-48 {
     @media (max-width: 425px) {
         font-size: 48px !important;
+    }
+}
+
+.pt-sm-8{
+    @media (max-width: 425px) {
+        padding-top: 8px !important;
+    }
+}
+
+.fs-sm-16{
+    @media (max-width: 425px) {
+        font-size: 16px !important;
+    }
+}
+
+.my-sm-32px{
+    //in rem
+    @media (max-width: 425px) {
+        margin-top: 32px !important;
+        margin-bottom: 32px !important;
     }
 }
