@@ -13,6 +13,7 @@
             <div class="row w-100">
                 <div class="col-lg-8 col-md-8 d-flex flex-column justify-content-center text-start">
                     <h1 class="fw-300">O match perfeito entre</h1>
+                    <h1 class="fw-300 display-sm-show pb-3">Marcas e Creators.</h1>
                 </div>
             </div>
         </div>
@@ -27,7 +28,7 @@
             </div>
         </div>
 
-        <div class="container put-on-top-of-section">
+        <div class="container put-on-top-of-section display-sm-none">
             <div class="row">
                 <div class="col-lg-8 col-md-8 me-auto d-flex flex-column justify-content-center text-start">
                     <h1 class="fw-300"> <span class="text-black">Marcas e Creators.</span></h1>
@@ -42,30 +43,30 @@
 
         <div class="container-fluid mt-80">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow normal-spacing'> Visibilidade </h4>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-5 px-sm-16px py-sm-20px pt-sm-0">
+                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Visibilidade </h4>
                     <p class="text-white fs-20"> Conecte-se e tenha seu perfil disponível para milhares de empresas que procuram influenciadores como você. </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow normal-spacing'> Praticidade </h4>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-5 px-sm-16px py-sm-20px">
+                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Praticidade </h4>
                     <p class="text-white fs-20"> A partir do momento em que seu perfil está em nossa base, você estará visível para empresas interessadas em colaborações e parcerias. </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow normal-spacing'> Destaque </h4>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-5 px-sm-16px py-sm-20px">
+                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Destaque </h4>
                     <p class="text-white fs-20"> Una-se à nossa empresa, com 15 anos de experiência no mercado e uma reputação sólida, conquistando a confiança de grandes clientes em busca de publicidade digital.  </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 px-5">
-                    <h4 class='fw-600 text-rainbow normal-spacing'> Agilidade </h4>
+                <div class="col-lg-3 col-md-6 col-sm-12 px-5 px-sm-16px py-sm-20px">
+                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Agilidade </h4>
                     <p class="text-white fs-20"> Para entrar em nossa plataforma, é muito simples! Basta preencher seu cadastro e conectar suas redes sociais desejadas. </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="pt-105 bg-black">
+    <section class="pt-105 bg-black display-sm-none">
     </section>
 
     <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
@@ -83,10 +84,10 @@
 
     <div id='meu-air'></div>
 
-    <section class="py-5 bg-black text-white">
+    <section class="py-5 bg-black text-white py-sm-0">
         <div class="container">
             <!-- Título principal -->
-            <div class="row align-items-center mb-5 mt-5">
+            <div class="row align-items-center mb-5 mt-5 mb-sm-24px">
                 <div class="col-lg-12 col-md-12 text-start">
                     <h1 class="fw-500 text-rainbow">Meu Air</h1>
                 </div>
@@ -163,17 +164,17 @@
 
     {{-- --------------------- --}}
 
-    <section class="py-5 pt-122 bg-black text-white">
+    <section class="py-5 pt-122 bg-black text-white py-sm-0">
         <div class="container">
             <!-- Título principal -->
-            <div class="row align-items-center mb-5 mt-5">
+            <div class="row align-items-center mb-5 mt-5 mb-sm-24px">
                 <div class="col-lg-12 col-md-12 text-start">
                     <h1 class="fw-500 text-rainbow">Connect</h1>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid pt-4">
+        <div class="container-fluid pt-4 pt-sm-0">
             <!-- Primeira linha: imagem do celular + texto descritivo -->
             <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma">
                 <div class="col-12 col-md-6 pe-0">
