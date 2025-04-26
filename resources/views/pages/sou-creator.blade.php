@@ -69,7 +69,7 @@
     <section class="pt-105 bg-black display-sm-none">
     </section>
 
-    <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+    <section class="py-4 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
         <div class="container px-0 py-0 px-sm-inherit text-start" style="margin-top: -8px !important;">
             <div class="row">
                 <div class="col-12 mx-auto">
@@ -89,7 +89,7 @@
             <!-- Título principal -->
             <div class="row align-items-center mb-5 mt-5 mb-sm-24px">
                 <div class="col-lg-12 col-md-12 text-start">
-                    <h1 class="fw-500 text-rainbow">Meu Air</h1>
+                    <h1 class="fw-500 text-rainbow fs-sm-48">Meu Air</h1>
                 </div>
             </div>
         </div>
@@ -100,12 +100,12 @@
 
     <div class="container-fluid bg-black text-white">
         <!-- Primeira linha: imagem do celular + texto descritivo -->
-        <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma">
+        <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma mb-sm-0">
             <div class="col-12 col-md-6 pe-0">
                 <img src="{{ asset('images/laptop-mockup.png') }}" alt="Phone and laptop" class="img-fluid hero-logo">
             </div>
 
-            <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start">
+            <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start mt-sm-16px">
                 <h5 class="text-white fw-300 pe-2 my-0">Automatize. Apareça. Monetize.</h5>
                 <h5 class="mb-4 fw-300 pe-2 my-0">Sua carreira, rentável e no piloto automático.</h5>
                 <p class="text-muted-c3 mb-4">
@@ -127,7 +127,7 @@
                 <img src="{{ asset('images/blonde-woman.png') }}" alt="Phone and laptop" class="img-fluid hero-logo">
             </div>
 
-            <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start ps-4">
+            <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start ps-4 mt-sm-16px">
                 <h5 class="mb-3 fw-300 pe-2">Creator, maximize seus ganhos já!</h5>
                 <p class="text-muted-c3 mt-40 line-height-1">
                     <div>
@@ -152,7 +152,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-black text-white pt-80">
+    <div class="container-fluid bg-black text-white pt-80 display-sm-none">
     </div>
 
     <x-rainbow-block-text
@@ -169,19 +169,19 @@
             <!-- Título principal -->
             <div class="row align-items-center mb-5 mt-5 mb-sm-24px">
                 <div class="col-lg-12 col-md-12 text-start">
-                    <h1 class="fw-500 text-rainbow">Connect</h1>
+                    <h1 class="fw-500 text-rainbow fs-sm-48">Connect</h1>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid pt-4 pt-sm-0">
             <!-- Primeira linha: imagem do celular + texto descritivo -->
-            <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma">
+            <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma mb-sm-0">
                 <div class="col-12 col-md-6 pe-0">
                     <img src="{{ asset('images/phone-on-keyboard.png') }}" alt="Phone and laptop" class="img-fluid hero-logo">
                 </div>
 
-                <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start ps-4">
+                <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start ps-4 mt-sm-16px">
                     <h5 class="mb-3 fw-300 pe-2">Seu talento, sua vitrine!</h5>
                     <p class="text-muted-c3">
                         Temos novidades: <b class='fw-700 text-white'> uma marca demonstrou interesse em perfis como o seu para uma campanha incrível!</b>
@@ -206,7 +206,7 @@
             </div>
         </div>
 
-        <section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+        <section class="py-4 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
             <div class="container px-0 py-0 px-sm-inherit text-start" style="margin-top: -8px !important;">
                 <div class="row">
                     <div class="col-12 mx-auto">
@@ -223,13 +223,13 @@
             </div>
         </section>
 
-        <div class="bg-black text-white">
+        <div class="bg-black text-white display-sm-none">
         </div>
     </section>
 
     {{-- ------------------------------------- --}}
 
-    <section class="py-5 bg-black text-white">
+    <section class="py-5 bg-black text-white display-sm-none">
     </section>
 
 

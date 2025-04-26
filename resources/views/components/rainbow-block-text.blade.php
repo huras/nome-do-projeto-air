@@ -6,7 +6,7 @@
     'target' => '_self',
 ])
 
-<section class="py-3 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
+<section class="py-4 text-white" style="background: linear-gradient(90deg, #fd75fd, #8efff7);">
     <div class="container px-0 py-0 px-sm-inherit text-start" style="margin-top: -8px !important;">
         <div class="row">
             <div class="col-12">
