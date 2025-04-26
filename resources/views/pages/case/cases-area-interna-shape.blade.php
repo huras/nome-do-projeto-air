@@ -65,21 +65,21 @@
                 <div class="col-10 mx-auto">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title text-center w-100">@yield('total_impressions')</h2>
-                                <div class="fw-bold text-center w-100">@yield('total_impressions_title')</div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 py-sm-20px">
+                                <h2 class="metric-title text-center w-100 fs-sm-96">@yield('total_impressions')</h2>
+                                <div class="fw-bold text-center w-100 pt-sm-8px">@yield('total_impressions_title')</div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title text-center w-100">@yield('accounts_reached')</h2>
-                                <div class="fw-bold text-center w-100">@yield('accounts_reached_title')</div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 py-sm-20px">
+                                <h2 class="metric-title text-center w-100 fs-sm-96">@yield('accounts_reached')</h2>
+                                <div class="fw-bold text-center w-100 pt-sm-8px">@yield('accounts_reached_title')</div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title text-center w-100">@yield('interactions')</h2>
-                                <div class="fw-bold text-center w-100">@yield('interactions_title')</div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 py-sm-20px">
+                                <h2 class="metric-title text-center w-100 fs-sm-96">@yield('interactions')</h2>
+                                <div class="fw-bold text-center w-100 pt-sm-8px">@yield('interactions_title')</div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-3">
-                                <h2 class="metric-title text-center w-100">@yield('effective_engagement')</h2>
-                                <div class="fw-bold text-center w-100 px-3">@yield('effective_engagement_title')</div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 py-sm-20px">
+                                <h2 class="metric-title text-center w-100 fs-sm-96">@yield('effective_engagement')</h2>
+                                <div class="fw-bold text-center w-100 pt-sm-8px px-3">@yield('effective_engagement_title')</div>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-    <div class="container">
+    <div class="container display-sm-none">
         <div class="row mb-5 mt-80">
             <div class="col-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 me-auto">
                 <h5 class='pb-4'> Diferencial Airfluencers </h5>
@@ -107,10 +107,10 @@
         </div>
     </section> --}}
 
-    <section class="text-white bg-black mt-90 pt-5 pb-160">
+    <section class="text-white bg-black mt-90 pt-5 pb-160 mt-sm-0 pb-sm-0">
         <div class="container-fluid">
             <div class="row">
-                <p class="text-muted-b0 fw-300">VER OUTROS</p>
+                <p class="text-muted-b0 fw-300">Ver outros</p>
             </div>
         </div>
         <?php
@@ -140,7 +140,7 @@
         <div class="container-fluid">
             <div class="row align-items-start">
                 @foreach ($cases as $case)
-                    <div class="col-3 mt-32">
+                    <div class="col-lg-3 col-md-6 col-6 mt-32">
                         <a href="{{ route('cases-interna', ['case' => $case['case']]) }}" class='external_cases_slot text-decoration-none'>
                             <img src="{{ asset('images/cases_externa/' . $case['bg']) }}" class="img-fluid background">
                             <div class='overlay'></div>
