@@ -175,6 +175,11 @@ p {
 .mt-45 {
     margin-top: 45px !important;
 }
+.mt-lg-104{
+    @media (min-width: 769px) {
+        margin-top: 104px !important;
+    }
+}
 .mt-107{
     margin-top: 107px !important;
 }

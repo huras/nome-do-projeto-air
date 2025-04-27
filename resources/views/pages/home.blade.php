@@ -153,7 +153,7 @@
                             <p class='text-muted-b0b0b0 my-0'>conecte-se já!</p>
                         </div>
 
-                        <div class='mb-5 mt-4 mt-sm-24px'>
+                        <div class='mb-5 mt-4 mt-sm-0 mt-sm-24px mb-sm-0'>
                             <button type="button" class="btn btn-light">
                                 <span class="fw-600">Assine já!</span>
                             </button>
@@ -178,7 +178,7 @@
                             <p class='text-muted-b0b0b0 my-0'>para você focar só no sucesso!</p>
                         </div>
 
-                        <div class='mb-5'>
+                        <div class='mb-5 mt-sm-0 mt-sm-24px mb-sm-0'>
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
@@ -212,7 +212,7 @@
 
 
                 <!-- Comparação Direita -->
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 mt-lg-104 mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>IA Aira</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -228,7 +228,7 @@
                             <p class='text-muted-b0b0b0 my-0'>inteligente e eficiente de influenciadores.</p>
                         </div>
 
-                        <div class='mb-5 mt-45 mt-sm-24px'>
+                        <div class='mb-5 mt-45 mt-sm-0 mt-sm-24px mb-sm-0'>
                             <a href="/solucoes#ai" type="button" class="btn btn-light">
                                 <span class="fw-600">Descubra o poder da IA</span>
                             </a>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 mt-lg-104 mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
                         <h3 class='text-rainbow h2-sm'>Sou <br>Creator</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
@@ -246,12 +246,12 @@
                             </div>
                         </div>
 
-                        <div class='my-5'>
+                        <div class='my-5 mt-sm-0 mb-sm-0'>
                             <h5 class='fw-300 text-white'>Redes Sociais</h5>
                             <p class='text-muted-b0b0b0 my-0'>Conecte suas redes sociais e descubra o poder da sua influência. Sua voz merece ser ouvida pelas marcas! </p>
                         </div>
 
-                        <div class='my-2'>
+                        <div class='my-2 mt-sm-0 mt-sm-24px'>
                             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactModal">
                                 <span class="fw-600">Fale com a gente</span>
                             </button>
