@@ -43,23 +43,23 @@
 
         <div class="container-fluid mt-80">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px pt-sm-0 pe-sm-0 px-md-0">
-                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Visibilidade </h4>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px pt-sm-0">
+                    <h4 class='fw-600 w-100 text-rainbow normal-spacing fs-sm-36'> Visibilidade </h4>
                     <p class="text-white fs-20"> Conecte-se e tenha seu perfil disponível para milhares de empresas que procuram influenciadores como você. </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px px-md-0">
-                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Praticidade </h4>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px">
+                    <h4 class='fw-600 w-100 text-rainbow normal-spacing fs-sm-36'> Praticidade </h4>
                     <p class="text-white fs-20"> A partir do momento em que seu perfil está em nossa base, você estará visível para empresas interessadas em colaborações e parcerias. </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px px-md-0">
-                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Destaque </h4>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px">
+                    <h4 class='fw-600 w-100 text-rainbow normal-spacing fs-sm-36'> Destaque </h4>
                     <p class="text-white fs-20"> Una-se à nossa empresa, com 15 anos de experiência no mercado e uma reputação sólida, conquistando a confiança de grandes clientes em busca de publicidade digital.  </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px px-md-0">
-                    <h4 class='fw-600 text-rainbow normal-spacing fs-sm-36'> Agilidade </h4>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 px-4 px-sm-16px py-sm-20px">
+                    <h4 class='fw-600 w-100 text-rainbow normal-spacing fs-sm-36'> Agilidade </h4>
                     <p class="text-white fs-20"> Para entrar em nossa plataforma, é muito simples! Basta preencher seu cadastro e conectar suas redes sociais desejadas. </p>
                 </div>
             </div>
