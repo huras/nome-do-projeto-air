@@ -101,8 +101,20 @@
     <div class="container-fluid bg-black text-white">
         <!-- Primeira linha: imagem do celular + texto descritivo -->
         <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma mb-sm-0">
-            <div class="col-12 col-md-6 pe-0">
-                <img src="{{ asset('images/laptop-mockup.png') }}" alt="Phone and laptop" class="img-fluid hero-logo">
+            <div class="col-12 col-md-6 pe-0 px-sm-inherit">
+                <div id="heroCarousel2" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ asset('images/slider-images/meu-air-1.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/slider-images/meu-air-2.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/slider-images/meu-air-3.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start mt-sm-16px">

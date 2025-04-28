@@ -72,8 +72,20 @@
 
         <div class="container-fluid fs-sm-20">
             <div class="row mb-5 d-flex flex-row align-items-start justify-content-start plataforma">
-                <div class="col-12 col-md-6 pe-0 px-sm-inherit">
-                    <img src="{{ asset('images/notebook-1.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                <div class="col-12 col-md-6 ps-0 px-sm-inherit">
+                    <div id="heroCarousel2" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('images/slider-images/pexels-cottonbro-4065617666.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('images/slider-images/sa5d4a5d454d5ad13a2sd1a53sd.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('images/slider-images/d1as23d1qw56e4a3s2d1q23we4qw6e.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-sm-12 mb-5 mb-md-0 fw-300 align-items-start mt-sm-24">
@@ -191,8 +203,20 @@
                     </ul>
                 </div>
 
-                <div class="col-md-6 col-sm-12 ps-0 px-sm-inherit">
-                    <img src="{{ asset('images/slider-images/4473f44fa0aae8766915469bbc2263d8.jpeg') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                <div class="col-12 col-md-6 ps-0 px-sm-inherit">
+                    <div id="heroCarousel2" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('images/slider-images/pexels-cottonbro-4065617.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('images/slider-images/two-businesswomen-with-laptop-at-desk-by-window-in-2024-10-19-17-45-59-utc.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('images/slider-images/4473f44fa0aae8766915469bbc2263d8.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -341,9 +365,9 @@
                 <div class="col-12 col-md-6 ps-0 px-sm-inherit">
                     <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
+                            {{-- <div class="carousel-item active">
                                 <img src="{{ asset('images/slider-images/1da45aabab4f2e1eb7a444e7d29b593e.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
-                            </div>
+                            </div> --}}
                             <div class="carousel-item">
                                 <img src="{{ asset('images/slider-images/ca5c91ad28ee222e6966e58914e674db.png') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
                             </div>
