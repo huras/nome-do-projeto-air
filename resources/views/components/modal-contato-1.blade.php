@@ -23,17 +23,60 @@
                             <input type="text" name="name" class="form-control" placeholder="*Nome" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="email" name="email" class="form-control" placeholder="*Email" required>
+                            <input type="empresa" name="empresa" class="form-control" placeholder="*Empresa" required>
                         </div>
                         <div class="col-md-6">
                             <select name="role" class="form-select" required>
-                                <option value="agencia">Agência</option>
-                                <option value="marca">Marca</option>
-                                <option value="creator">Creator</option>
+                                <option value="socio_ceo_proprietario">Sócio/ CEO / Proprietário (a)</option>
+                                <option value="diretor_vendas">Diretor(a) de Vendas</option>
+                                <option value="diretor_marketing">Diretor(a) de Marketing</option>
+                                <option value="diretor_outras_areas">Diretor(a) Outras Áreas</option>
+                                <option value="gerente_marketing">Gerente de Marketing</option>
+                                <option value="gerente_vendas">Gerente de Vendas</option>
+                                <option value="coordenador_supervisor_marketing">Coordenador(a)/Supervisor(a) de Marketing</option>
+                                <option value="coordenador_supervisor_vendas">Coordenador(a)/Supervisor(a) de Vendas</option>
+                                <option value="analista_assistente_marketing">Analista/Assistente de Marketing</option>
+                                <option value="analista_assistente_vendas">Analista/Assistente de Vendas</option>
+                                <option value="vendedor_executivo_contas">Vendedor(a) / Executivo(a) de Contas</option>
+                                <option value="estudante">Estudante</option>
+                                <option value="outros_cargos">Outros Cargos</option>
                             </select>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" name="phone" class="form-control" placeholder="*Telefone/Whatsapp" required>
+                            <input type="text" name="telefone" class="form-control" placeholder="*Telefone/Whatsapp" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" name="email" class="form-control" placeholder="*Email corporativo" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="site" class="form-control" placeholder="*Site da empresa" required>
+                        </div>
+                        <div class="col-md-6">
+                            <select name="segmento_empresa" class="form-select" required>
+                                <option value="agronegocio">Agronegócio</option>
+                                <option value="consultorias_treinamentos">Consultorias e Treinamentos</option>
+                                <option value="ecommerce">Ecommerce</option>
+                                <option value="educacao_ensino">Educação e Ensino</option>
+                                <option value="agencia_marketing_publicidade">Agência de Marketing e Publicidade</option>
+                                <option value="engenharia_industria_geral">Engenharia e Indústria Geral</option>
+                                <option value="eventos">Eventos</option>
+                                <option value="financeiro_juridico_servicos">Financeiro, Jurídico e Serviços Relacionados</option>
+                                <option value="governo_orgaos_publicos">Governo e Órgãos Públicos</option>
+                                <option value="hardware_eletronicos">Hardware e Eletrônicos</option>
+                                <option value="imobiliarias">Imobiliárias</option>
+                                <option value="midia_comunicacao">Mídia e Comunicação</option>
+                                <option value="ongs">ONGs</option>
+                                <option value="saude_estetica">Saúde e Estética</option>
+                                <option value="seguros">Seguros</option>
+                                <option value="servicos_geral">Serviços em Geral</option>
+                                <option value="servicos_rh_coaching">Serviços em RH e Coaching</option>
+                                <option value="software_cloud">Software e Cloud</option>
+                                <option value="telecomunicacoes">Telecomunicações</option>
+
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="workers" class="form-control" placeholder="*Número de funcionários" required>
                         </div>
 
                         <div class="col-12 text-area-with-counter">
@@ -83,16 +126,16 @@
             // dropdownParent: $('#contactModal .modal-dialog'),
             dropdownParent: $('#contactModal'),
             minimumResultsForSearch: Infinity,
-            placeholder: "*Agência/Marca/Creator",
+            placeholder: "*Cargo na empresa",
             allowClear: true
         });
 
-        // $('#contactModal select[name=role]').select2({
-        //     dropdownParent: $('#contactModal'),
-        //     minimumResultsForSearch: Infinity,
-        //     placeholder: "*Cargo na empresa",
-        //     allowClear: true
-        // });
+        $('#contactModal select[name=segmento_empresa]').select2({
+            dropdownParent: $('#contactModal'),
+            minimumResultsForSearch: Infinity,
+            placeholder: "*Segmento da empresa",
+            allowClear: true
+        });
 
         const selects = document.querySelectorAll('#contactModal select');
         selects.forEach(select => {
