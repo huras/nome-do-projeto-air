@@ -133,7 +133,7 @@
         <x-rainbow-block-text
             title="Encontre o Creator certo para sua marca!"
             button-text="Assine agora"
-            button-link="{{ route('contato') }}"
+            button-link="https://airkit.to/login"
         />
 
         <div class="container" id='campanhas-customizadas'>
