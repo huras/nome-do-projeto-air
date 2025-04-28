@@ -896,6 +896,13 @@ p,
     }
 }
 
+.px-lg-5{
+    @media (min-width: 1025px) {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+}
+
 .py-7 {
     @media (max-width: 425px) {
         padding-top: 1rem !important;
@@ -1067,6 +1074,12 @@ p,
     }
 }
 
+.pe-sm-0 {
+    @media (max-width: 425px) {
+        padding-right: 0px !important;
+    }
+}
+
 .px-sm-0 {
     @media (max-width: 425px) {
         padding-right: 0px !important;
@@ -1097,5 +1110,19 @@ p,
     @media (max-width: 425px) {
         margin-top: 32px !important;
         margin-bottom: 32px !important;
+    }
+}
+
+.px-sm-3{
+    @media (max-width: 1024px) {
+        padding-right: 1px !important;
+        padding-left: 1px !important;
+    }
+}
+
+div.px-sm-0{
+    @media (max-width: 768px) {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
     }
 }
