@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
+@section('title', 'Contato')
 
 @section('footer-bg-theme', 'bg-black')
 @section('footer-text-theme', 'text-white')

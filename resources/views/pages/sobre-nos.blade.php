@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
+@section('title', 'Sobre Nós')
 
 @section('navbar-theme', 'navbar-light bg-white')
 

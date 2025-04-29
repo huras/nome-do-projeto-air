@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
+@section('title', 'Privacy Policy')
 
 @section('content')
     <section class="text-black bg-white pt-122">

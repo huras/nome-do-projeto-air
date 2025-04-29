@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
+@section('title', 'Sou Creator')
 
 @section('content')
     <section class="text-white bg-black">

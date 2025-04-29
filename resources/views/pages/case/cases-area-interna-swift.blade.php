@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
 
 @section('content')
     @section('brand_title', 'Swift')

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
+@section('title', 'Cases - '.View::yieldContent('brand_title'))
 
 @section('content')
     <section class="hero-section text-white bg-black pb-5">
