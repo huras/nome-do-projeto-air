@@ -26,12 +26,12 @@
             <div class="col-sm-12 col-md-6 col-lg-3 py-4">
                 <p class="pe-4 fs-18 text-decoration-underline fw-normal">Novos clientes</p>
                 <p class="pe-4 fs-18 small @yield('footer-text-theme', 'text-black')">Clientes interessados em trabalhar com a gente.</p>
-                <p class="pe-4 fs-18 text-muted-59 small">clientes@air.com</p>
+                <p class="pe-4 fs-18 text-muted-59 small">clientes@air.com.vc</p>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 py-4">
                 <p class="pe-4 fs-18 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Creators</p>
                 <p class="pe-4 fs-18 small @yield('footer-text-theme', 'text-black')">Ações com influenciadores, mídia kit, portfólio, parcerias.</p>
-                <p class="pe-4 fs-18 text-muted-59 small">creators@air.com</p>
+                <p class="pe-4 fs-18 text-muted-59 small">creators@air.com.vc</p>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-3 py-4">
@@ -50,20 +50,20 @@
                 <div>Para nos enviar seu perfil ou currículo, </div>
                 <div>inscreva-se em nosso banco de talentos.</div>
                 </p>
-                <p class="pe-4 fs-18 text-muted-59 small">bancodetalentos@air.com</p>
+                <p class="pe-4 fs-18 text-muted-59 small">bancodetalentos@air.com.vc</p>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-3 py-4">
                 <p class="pe-4 fs-18 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Mídia</p>
                 <p class="pe-4 fs-18 small @yield('footer-text-theme', 'text-black')">Veículos interessados em fornecer serviços de mídia para nossos
                     clientes.</p>
-                <p class="pe-4 fs-18 text-muted-59 small">midia@air.com</p>
+                <p class="pe-4 fs-18 text-muted-59 small">midia@air.com.vc</p>
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-3 py-4">
                 <p class="pe-4 fs-18 text-decoration-underline fw-normal @yield('footer-text-theme', 'text-black')">Imprensa</p>
                 <p class="pe-4 fs-18 small @yield('footer-text-theme', 'text-black')">Eventos, divulgações e notícias.</p>
-                <p class="pe-4 fs-18 text-muted-59 small">imprensa@air.com</p>
+                <p class="pe-4 fs-18 text-muted-59 small">imprensa@air.com.vc</p>
             </div>
 
 
