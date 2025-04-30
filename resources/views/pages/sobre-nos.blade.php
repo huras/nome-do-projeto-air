@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Sobre Nós')
+@section('title', 'Conheça a Air | Especialistas em Marketing de Influência')
+@section('description', 'Somos a Air: apaixonados por conectar marcas a influenciadores com tecnologia, dados e criatividade. Conheça nossa história e propósito.')
 
 @section('navbar-theme', 'navbar-light bg-white')
 

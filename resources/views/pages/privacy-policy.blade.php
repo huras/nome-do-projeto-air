@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Privacy Policy')
+@section('title', 'Política de Privacidade da AIR | Compromisso com a Proteção de Dados')
+@section('description', 'Conheça a Política de Privacidade da AIR e entenda como protegemos seus dados pessoais conforme a LGPD. Transparência e segurança em primeiro lugar.')
 
 @section('content')
     <section class="text-black bg-white pt-122">

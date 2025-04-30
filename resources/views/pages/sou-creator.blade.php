@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Sou Creator')
+@section('title', 'Air | A Plataforma para Criadores de Conteúdo Monetizarem sua Audiência')
+@section('description', 'Descubra como a Air ajuda creators a monetizar, se conectar com marcas e transformar influência em renda. Cadastre-se gratuitamente!')
 
 @section('content')
     <section class="text-white bg-black">

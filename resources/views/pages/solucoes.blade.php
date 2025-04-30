@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Soluções')
+@section('title', 'Air | Encontre Influenciadores Ideais para Sua Marca')
+@section('description', 'A Air conecta sua marca aos influenciadores perfeitos para campanhas eficazes. Lance ações com dados, inteligência e escala. Comece agora mesmo.')
 
 @section('content')
     <section class="hero-section text-black bg-white">

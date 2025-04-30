@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Air | Plataforma de Marketing de Influência para Marcas e Criadores')
+@section('description', 'Descubra como a Air conecta marcas a influenciadores autênticos para campanhas de marketing de influência eficazes. Potencialize sua presença digital conosco.')
 
 @section('content')
     <section class="hero-section text-white bg-black pt-5">

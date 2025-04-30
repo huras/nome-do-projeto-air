@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Cases')
+@section('title', 'Cases de Sucesso | Resultados Reais com a Air')
+@section('description', 'Descubra como marcas alcançaram resultados expressivos com a Air através de campanhas de marketing de influência. Inspire-se com nossos cases de sucesso.')
 
 @section('content')
     <section class="hero-section text-white bg-black">
