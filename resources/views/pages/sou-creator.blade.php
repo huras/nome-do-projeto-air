@@ -13,8 +13,9 @@
         <div class="container d-flex align-items-center">
             <div class="row w-100">
                 <div class="col-lg-8 col-md-8 d-flex flex-column justify-content-center text-start">
-                    <h1 class="fw-300">O match perfeito entre</h1>
-                    <h1 class="fw-300 display-sm-show pb-3">Marcas e Creators.</h1>
+                    <h1> <span class="fw-300">O match perfeito entre</span>
+                    <span class="fw-300 display-sm-show pb-3">Marcas e Creators.</span>
+                    </h1>
                 </div>
             </div>
         </div>
@@ -119,8 +120,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-5 mb-md-0 fw-300 align-items-start mt-sm-16px">
-                <h5 class="text-white fw-300 pe-2 my-0">Automatize. Apareça. Monetize.</h5>
-                <h5 class="mb-4 fw-300 pe-2 my-0">Sua carreira, rentável e no piloto automático.</h5>
+                <h5 class="text-white fw-300 pe-2 my-0 mb-4">Automatize. Apareça. Monetize.<br>Sua carreira, rentável e no piloto automático.</h5>
                 <p class="text-muted-c3 mb-4">
                     A REVOLUÇÃO É AGORA!
                 </p>

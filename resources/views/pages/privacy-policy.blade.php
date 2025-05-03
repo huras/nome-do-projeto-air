@@ -8,8 +8,7 @@
         <div class="container d-flex align-items-center">
             <div class="row w-100">
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-start">
-                    <h2 class="fw-300">Política de Privacidade e</h2>
-                    <h2 class="fw-300">Termos de Uso da Air</h2>
+                    <h2 class="fw-300">Política de Privacidade e<br>Termos de Uso da Air</h2>
                 </div>
 
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-start text-muted-59">

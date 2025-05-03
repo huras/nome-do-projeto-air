@@ -17,8 +17,7 @@
         <div class="container d-flex align-items-center">
             <div class="row w-100">
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-center">
-                    <h1 class="fw-300 home-hero-text text-sm-start">Se você busca</h1>
-                    <h1 class="fw-300 home-hero-text text-sm-start">relevância,</h1>
+                    <h1 class="fw-300 home-hero-text text-sm-start">Se você busca <br> relevância,</h1>
                 </div>
             </div>
         </div>
@@ -28,9 +27,7 @@
         <div class="container d-flex align-items-center">
             <div class="row w-100">
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-center">
-                    <h1 class="fw-300 home-hero-text text-sm-start">disrupção,</h1>
-                    <h1 class="fw-300 home-hero-text text-sm-start">e inovação,</h1>
-                    <h1 class="fw-300 home-hero-text text-sm-start">junte-se a nós.</h1>
+                    <h1 class="fw-300 home-hero-text text-sm-start">disrupção,<br>e inovação,<br>junte-se a nós.</h1>
                 </div>
             </div>
         </div>

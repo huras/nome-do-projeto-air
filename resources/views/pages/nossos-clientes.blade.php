@@ -64,8 +64,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-660 mt-mobile-64">
                     <h5 class="mb-0 fw-300">
                         <b> Plataforma </b>
-                    </h5>
-                    <h5 class="mb-0 fw-300">
+                    <br>
                         <b> AirSearch </b>
                     </h5>
 
@@ -75,10 +74,9 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-370 mt-mobile-64">
-                    <h5 class="mb-0 fw-300">
-                        <b> Campanhas </b>
-                    </h5>
                     <h5 class="mb-4 mt-0 fw-300">
+                        <b> Campanhas </b>
+                        <br>
                         <b> customizadas </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}
@@ -111,10 +109,9 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-12 text-muted-b0 mt-0 mt-mobile-32">
-                    <h5 class="mb-0 fw-300">
-                        <b> Sou </b>
-                    </h5>
                     <h5 class="mb-4 mt-0 fw-300">
+                        <b> Sou </b>
+                    <br>
                         <b> Creator </b>
                     </h5>
                     {{-- <p class="text-muted fw-300 mt-2">Empresa</p> --}}

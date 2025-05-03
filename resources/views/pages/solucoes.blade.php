@@ -13,10 +13,7 @@
         <div class="container d-flex align-items-center">
             <div class="row ">
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-center home-hero-wrapper">
-                    <h1 class="fw-300 home-hero-text text-sm-start">Marketing de</h1>
-                    <h1 class="fw-300 home-hero-text text-sm-start">influência com</h1>
-                    <h1 class="fw-300 home-hero-text text-sm-start">alma e</h1>
-                    <h1 class="fw-300 home-hero-text text-sm-start">inteligência.</h1>
+                    <h1 class="fw-300 home-hero-text text-sm-start">Marketing de<br>influência com<br>alma e<br>inteligência.</h1>
                 </div>
             </div>
         </div>
@@ -64,8 +61,7 @@
             <div class="row align-items-center mb-5 mt-64 mb-sm-24" >
 
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-center align-items-sm-start">
-                    <h1 class="fw-500 text-rainbow h2-sm">Plataforma</h1>
-                    <h1 class="fw-500 text-rainbow h2-sm">AirSearch</h1>
+                    <h1 class="fw-500 text-rainbow h2-sm">Plataforma<br>AirSearch</h1>
                 </div>
 
             </div>
@@ -144,8 +140,7 @@
             <div class="row align-items-center mb-5 mt-64 mb-sm-24">
 
                 <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center text-center align-items-sm-start">
-                    <h1 class="fw-500 h2-sm text-rainbow w-100 text-sm-start">Campanhas</h1>
-                    <h1 class="fw-500 h2-sm text-rainbow w-100 text-sm-start">Customizadas</h1>
+                    <h1 class="fw-500 h2-sm text-rainbow w-100 text-sm-start">Campanhas<br>Customizadas</h1>
                 </div>
 
 

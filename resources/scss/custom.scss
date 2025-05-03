@@ -308,7 +308,7 @@ p {
 
 // ------------
 
-h1 {
+h1, .h1 {
     margin: 0;
     font-size: 128px !important;
     line-height: 0.95;
@@ -333,7 +333,7 @@ h1 {
     font-family: Lexend;
 }
 
-h2 {
+h2:not(.h1):not(.h3) {
     margin: 0;
     font-size: 96px !important;
     @media (max-width: 1024px) {
@@ -351,7 +351,7 @@ h2 {
     letter-spacing: -3%;
 }
 
-h3 {
+h3, .h3 {
     margin: 0;
     font-size: 64px !important;
     @media (max-width: 1024px) {

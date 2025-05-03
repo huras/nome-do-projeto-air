@@ -27,7 +27,7 @@
             <div class="row ">
                 <div class="col-12">
                     <h3 class="fw-500 pt-5 pb-2">Objetivo</h3>
-                    <h5 class="fw-300 text-muted">@yield('objetivo')</p>
+                    <h5 class="fw-300 text-muted">@yield('objetivo')</h5>
                 </div>
             </div>
         </div>

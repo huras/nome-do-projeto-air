@@ -9,8 +9,7 @@
             <div class="row w-100">
                 <div
                     class="col-lg-5 col-md-12 d-flex flex-column justify-content-center text-center home-hero-wrapper mx-auto">
-                    <h1 class="fw-light home-hero-text text-sm-start">Nós</h1>
-                    <h1 class="fw-light home-hero-text-secondary text-sm-start">somos a</h1>
+                    <h1 class="fw-light home-hero-text text-sm-start">Nós <br> somos a</h1>
                 </div>
                 <div class="col-lg-7 col-md-12 px-0 d-flex justify-content-center align-items-center home-hero-wrapper">
                     <img src="{{ asset('images/air_animado_home.gif') }}" alt="Air Logo Stroke" class="img-fluid hero-logo">
@@ -30,8 +29,7 @@
         <div class="container">
             <div class="row w-100">
                 <div class="d-flex flex-column justify-content-center text-start half-below-text">
-                    <h1 class="fw-300 my-0 py-0">Respiramos</h1>
-                    <h1 class="fw-300 my-0 py-0">influência.</h1>
+                    <h2 class="fw-300 my-0 py-0 h1">Respiramos <br>influência</h2>
                 </div>
             </div>
         </div>
@@ -127,7 +125,7 @@
 
     <section class="pb-5 pt-122 bg-black text-white pb-sm-0">
         <div class="container pb-5 px-sm-5 pb-sm-0">
-            <h3> Nossas soluções </h3>
+            <h2 class="h3"> Nossas soluções </h2>
             <p class="text-muted mt-3">
                 Reunimos especialistas para oferecer  criatividade disruptiva. Entregando integração com especialização profunda. É assim que nós fazemos.
             </p>
@@ -139,8 +137,7 @@
                 <!-- Comparação Direita -->
                 <div class="col-12 col-lg-4 col-md-6 col-sm-12  mb-4 my-sm-32px">
                     <div class="d-flex flex-column justify-content-start align-items-start">
-                        <h3 class='text-rainbow h2-sm'>Plataforma</h3>
-                        <h3 class='text-rainbow h2-sm'>AirSearch</h3>
+                        <h3 class='text-rainbow h2-sm'>Plataforma <br>AirSearch</h3>
                         <div class="d-flex justify-content-start align-items-end mt-3">
                             <div class='text-white fw-300 me-2' style="line-height: 1;">BY</div>
                             <div>
