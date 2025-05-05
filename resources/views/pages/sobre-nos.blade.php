@@ -244,7 +244,7 @@
         <div class="container">
             <div class="row text-start w-100">
                 <div class="w-100 d-flex justify-content-start">
-                    <a class="btn btn-dark text-white mt-5" href="https://airfluencers.com/">Ir para o blog</a>
+                    <a class="btn btn-dark text-white mt-5" href="https://air.com.vc/blog">Ir para o blog</a>
                 </div>
             </div>
         </div>
