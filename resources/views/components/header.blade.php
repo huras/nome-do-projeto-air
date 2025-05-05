@@ -87,7 +87,7 @@
                     </li>
                     <li class="nav-item">
                         {{-- Criar rota: Route::get('/blog', ...) --}}
-                        <a class="nav-link" target="_blank" href="https://airfluencers.com/blog/">Blog</a>
+                        <a class="nav-link" target="_blank" href="https://air.com.vc/blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         {{-- Criar rota: Route::get('/contato', ...) --}}
