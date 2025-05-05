@@ -215,7 +215,7 @@
                     </div>
                     <p class="fw-700 line-height-1 mt-24">Como a geração Z está influenciando as estratégias de marketing em 2025</p>
                     <p class="mt-16">
-                        <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
+                        <a class="article-link" href="https://air.com.vc/blog" >Ir para o artigo ></a>
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-12 mt-sm-24">
@@ -224,7 +224,7 @@
                     </div>
                     <p class="fw-700 line-height-1 mt-24">Como os dados estão moldando as decisões de marketing</p>
                     <p class="mt-16">
-                        <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
+                        <a class="article-link" href="https://air.com.vc/blog" >Ir para o artigo ></a>
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-12 mt-sm-24">
@@ -233,7 +233,7 @@
                     </div>
                     <p class="fw-700 line-height-1 mt-24">O futuro das redes sociais: quais plataformas ganharão destaque em 2025</p>
                     <p class="mt-16">
-                        <a class="article-link" href="https://airfluencers.com/" >Ir para o artigo ></a>
+                        <a class="article-link" href="https://air.com.vc/blog" >Ir para o artigo ></a>
                     </p>
                 </div>
             </div>
@@ -276,7 +276,7 @@
                     </div>
                     <p class="fw-700 line-height-1 mt-24">Link 1 para matérias em veículos de mídia, imprensa, menções etc.</p>
                     <p class="mt-16">
-                        <a class="article-link" href="https://airfluencers.com/" >Ir para a matéria ></a>
+                        <a class="article-link" href="https://air.com.vc/blog" >Ir para a matéria ></a>
                     </p>
                 </div>
 
@@ -286,7 +286,7 @@
                     </div>
                     <p class="fw-700 line-height-1 mt-24">Link 2 para matérias em veículos de mídia, imprensa, menções etc.</p>
                     <p class="mt-16">
-                        <a class="article-link" href="https://airfluencers.com/" >Ir para a matéria ></a>
+                        <a class="article-link" href="https://air.com.vc/blog" >Ir para a matéria ></a>
                     </p>
                 </div>
             </div>
