@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    environment:
+      - APACHE_RUN_USER=www-data
+    networks:
+      - laravel
+
+  web:
+    image: httpd:2.4
+    depends_on:
+      - app
+    volumes:
+      - ./docker/apache/vhost.conf:/usr/local/apache2/conf/httpd.conf
+      - .:/var/www/html
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - laravel
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    entrypoint: /bin/sh -c "trap exit TERM; while :; do sleep 1; done"
+    networks:
+      - laravel
+
+networks:
+  laravel:
+    driver: bridge
